@@ -1,0 +1,261 @@
+{
+  "id": "book-of-enoch",
+  "title": "Book of Enoch",
+  "description": "Research tree for the Book of Enoch, Enochic literature, Watchers traditions, textual history, and religious influence.",
+  "createdAt": "2026-05-08T00:00:00.000Z",
+  "updatedAt": "2026-05-08T23:32:10.617Z",
+  "nodes": [
+    {
+      "id": "book_of_enoch",
+      "title": "Book of Enoch",
+      "type": "root",
+      "status": "researching",
+      "x": 420,
+      "y": 300,
+      "notePath": "nodes/book_of_enoch.md",
+      "tags": [
+        "book-of-enoch",
+        "second-temple",
+        "apocrypha",
+        "pseudepigrapha",
+        "ancient-literature"
+      ],
+      "claims": [
+        {
+          "id": "claim_composite_collection",
+          "text": "1 Enoch is not one single uniform book but a composite collection of several writings.",
+          "state": "partially_supported",
+          "evidence": "Introductory scholarly summaries commonly describe 1 Enoch as composite.",
+          "sourceIds": [
+            "early_jewish_writings_1_enoch",
+            "britannica_first_book_of_enoch"
+          ],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "id": "one_enoch",
+      "title": "1 Enoch",
+      "type": "topic",
+      "status": "researching",
+      "x": 720,
+      "y": 300,
+      "notePath": "nodes/one_enoch.md",
+      "tags": [
+        "1-enoch",
+        "geez",
+        "dead-sea-scrolls"
+      ]
+    },
+    {
+      "id": "book_of_the_watchers",
+      "title": "Book of the Watchers",
+      "type": "topic",
+      "status": "researching",
+      "x": 980,
+      "y": 300,
+      "notePath": "nodes/book_of_the_watchers.md",
+      "tags": [
+        "watchers",
+        "angels",
+        "genesis-6"
+      ]
+    },
+    {
+      "id": "genesis_6",
+      "title": "Genesis 6",
+      "type": "source",
+      "status": "researching",
+      "x": 1230,
+      "y": 120,
+      "notePath": "nodes/genesis_6.md",
+      "tags": [
+        "genesis",
+        "nephilim",
+        "sons-of-god"
+      ]
+    },
+    {
+      "id": "watchers",
+      "title": "Watchers",
+      "type": "concept",
+      "status": "researching",
+      "x": 1260,
+      "y": 300,
+      "notePath": "nodes/watchers.md",
+      "tags": [
+        "watchers",
+        "angels",
+        "forbidden-knowledge"
+      ]
+    },
+    {
+      "id": "nephilim_giants",
+      "title": "Nephilim / Giants",
+      "type": "people_group",
+      "status": "researching",
+      "x": 1230,
+      "y": 480,
+      "notePath": "nodes/nephilim_giants.md",
+      "tags": [
+        "nephilim",
+        "giants",
+        "people_group"
+      ]
+    },
+    {
+      "id": "heavenly_journeys",
+      "title": "Heavenly Journeys",
+      "type": "concept",
+      "status": "unchecked",
+      "x": 420,
+      "y": 20,
+      "notePath": "nodes/heavenly_journeys.md",
+      "tags": [
+        "visionary",
+        "cosmology",
+        "apocalyptic"
+      ]
+    },
+    {
+      "id": "ethiopian_orthodox_tradition",
+      "title": "Ethiopian Orthodox Tradition",
+      "type": "topic",
+      "status": "researching",
+      "x": 150,
+      "y": 160,
+      "notePath": "nodes/ethiopian_orthodox_tradition.md",
+      "tags": [
+        "ethiopian-orthodox",
+        "canon",
+        "geez"
+      ]
+    },
+    {
+      "id": "dead_sea_scrolls",
+      "title": "Dead Sea Scrolls",
+      "type": "source",
+      "status": "researching",
+      "x": 720,
+      "y": 70,
+      "notePath": "nodes/dead_sea_scrolls.md",
+      "tags": [
+        "dead-sea-scrolls",
+        "aramaic",
+        "manuscripts"
+      ]
+    },
+    {
+      "id": "second_temple_judaism",
+      "title": "Second Temple Judaism",
+      "type": "topic",
+      "status": "researching",
+      "x": 150,
+      "y": 440,
+      "notePath": "nodes/second_temple_judaism.md",
+      "tags": [
+        "second-temple",
+        "apocalyptic",
+        "judaism"
+      ]
+    },
+    {
+      "id": "jude_14_15",
+      "title": "Jude 14-15",
+      "type": "source",
+      "status": "researching",
+      "x": 420,
+      "y": 590,
+      "notePath": "nodes/jude_14_15.md",
+      "tags": [
+        "jude",
+        "new-testament",
+        "enochic-influence"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-book-enoch-one-enoch",
+      "source": "book_of_enoch",
+      "target": "one_enoch",
+      "type": "part_of",
+      "label": "major textual tradition",
+      "notes": ""
+    },
+    {
+      "id": "edge-one-enoch-watchers",
+      "source": "one_enoch",
+      "target": "book_of_the_watchers",
+      "type": "part_of",
+      "label": "early section / Watchers tradition",
+      "notes": ""
+    },
+    {
+      "id": "edge-watchers-genesis-6",
+      "source": "book_of_the_watchers",
+      "target": "genesis_6",
+      "type": "connected_to",
+      "label": "related biblical passage",
+      "notes": ""
+    },
+    {
+      "id": "edge-watchers-watchers",
+      "source": "book_of_the_watchers",
+      "target": "watchers",
+      "type": "connected_to",
+      "label": "central beings",
+      "notes": ""
+    },
+    {
+      "id": "edge-watchers-nephilim",
+      "source": "book_of_the_watchers",
+      "target": "nephilim_giants",
+      "type": "connected_to",
+      "label": "offspring tradition",
+      "notes": ""
+    },
+    {
+      "id": "edge-book-enoch-heavenly-journeys",
+      "source": "book_of_enoch",
+      "target": "heavenly_journeys",
+      "type": "connected_to",
+      "label": "visionary theme",
+      "notes": ""
+    },
+    {
+      "id": "edge-book-enoch-ethiopian",
+      "source": "book_of_enoch",
+      "target": "ethiopian_orthodox_tradition",
+      "type": "connected_to",
+      "label": "preservation / canon",
+      "notes": ""
+    },
+    {
+      "id": "edge-one-enoch-dead-sea-scrolls",
+      "source": "one_enoch",
+      "target": "dead_sea_scrolls",
+      "type": "source_for",
+      "label": "manuscript evidence",
+      "notes": ""
+    },
+    {
+      "id": "edge-book-enoch-second-temple",
+      "source": "book_of_enoch",
+      "target": "second_temple_judaism",
+      "type": "connected_to",
+      "label": "historical context",
+      "notes": ""
+    },
+    {
+      "id": "edge-book-enoch-jude",
+      "source": "book_of_enoch",
+      "target": "jude_14_15",
+      "type": "connected_to",
+      "label": "later textual echo",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "tree": {
+    "id": "book-of-enoch",
+    "title": "Book of Enoch",
+    "description": "Research tree for the Book of Enoch, Enochic literature, Watchers traditions, textual history, and religious influence.",
+    "createdAt": "2026-05-08T00:00:00.000Z",
+    "updatedAt": "2026-05-08T22:52:11.236Z",
+    "nodes": [
+      {
+        "id": "book_of_enoch",
+        "title": "Book of Enoch",
+        "type": "root",
+        "status": "researching",
+        "x": 420,
+        "y": 300,
+        "notePath": "nodes/book_of_enoch.md",
+        "tags": [
+          "book-of-enoch",
+          "second-temple",
+          "apocrypha",
+          "pseudepigrapha",
+          "ancient-literature"
+        ],
+        "claims": [
+          {
+            "id": "claim_composite_collection",
+            "text": "1 Enoch is not one single uniform book but a composite collection of several writings.",
+            "state": "partially_supported",
+            "evidence": "Introductory scholarly summaries commonly describe 1 Enoch as composite.",
+            "sourceIds": [
+              "early_jewish_writings_1_enoch",
+              "britannica_first_book_of_enoch"
+            ],
+            "confidence": "moderate",
+            "disputeNotes": ""
+          }
+        ]
+      },
+      {
+        "id": "one_enoch",
+        "title": "1 Enoch",
+        "type": "topic",
+        "status": "researching",
+        "x": 720,
+        "y": 300,
+        "notePath": "nodes/one_enoch.md",
+        "tags": [
+          "1-enoch",
+          "geez",
+          "dead-sea-scrolls"
+        ]
+      },
+      {
+        "id": "book_of_the_watchers",
+        "title": "Book of the Watchers",
+        "type": "topic",
+        "status": "researching",
+        "x": 980,
+        "y": 300,
+        "notePath": "nodes/book_of_the_watchers.md",
+        "tags": [
+          "watchers",
+          "angels",
+          "genesis-6"
+        ]
+      },
+      {
+        "id": "genesis_6",
+        "title": "Genesis 6",
+        "type": "source",
+        "status": "researching",
+        "x": 1230,
+        "y": 120,
+        "notePath": "nodes/genesis_6.md",
+        "tags": [
+          "genesis",
+          "nephilim",
+          "sons-of-god"
+        ]
+      },
+      {
+        "id": "watchers",
+        "title": "Watchers",
+        "type": "concept",
+        "status": "researching",
+        "x": 1260,
+        "y": 300,
+        "notePath": "nodes/watchers.md",
+        "tags": [
+          "watchers",
+          "angels",
+          "forbidden-knowledge"
+        ]
+      },
+      {
+        "id": "nephilim_giants",
+        "title": "Nephilim / Giants",
+        "type": "people_group",
+        "status": "researching",
+        "x": 1230,
+        "y": 480,
+        "notePath": "nodes/nephilim_giants.md",
+        "tags": [
+          "nephilim",
+          "giants",
+          "people_group"
+        ]
+      },
+      {
+        "id": "heavenly_journeys",
+        "title": "Heavenly Journeys",
+        "type": "concept",
+        "status": "unchecked",
+        "x": 420,
+        "y": 20,
+        "notePath": "nodes/heavenly_journeys.md",
+        "tags": [
+          "visionary",
+          "cosmology",
+          "apocalyptic"
+        ]
+      },
+      {
+        "id": "ethiopian_orthodox_tradition",
+        "title": "Ethiopian Orthodox Tradition",
+        "type": "topic",
+        "status": "researching",
+        "x": 150,
+        "y": 160,
+        "notePath": "nodes/ethiopian_orthodox_tradition.md",
+        "tags": [
+          "ethiopian-orthodox",
+          "canon",
+          "geez"
+        ]
+      },
+      {
+        "id": "dead_sea_scrolls",
+        "title": "Dead Sea Scrolls",
+        "type": "source",
+        "status": "researching",
+        "x": 720,
+        "y": 70,
+        "notePath": "nodes/dead_sea_scrolls.md",
+        "tags": [
+          "dead-sea-scrolls",
+          "aramaic",
+          "manuscripts"
+        ]
+      },
+      {
+        "id": "second_temple_judaism",
+        "title": "Second Temple Judaism",
+        "type": "topic",
+        "status": "researching",
+        "x": 150,
+        "y": 440,
+        "notePath": "nodes/second_temple_judaism.md",
+        "tags": [
+          "second-temple",
+          "apocalyptic",
+          "judaism"
+        ]
+      },
+      {
+        "id": "jude_14_15",
+        "title": "Jude 14-15",
+        "type": "source",
+        "status": "researching",
+        "x": 420,
+        "y": 590,
+        "notePath": "nodes/jude_14_15.md",
+        "tags": [
+          "jude",
+          "new-testament",
+          "enochic-influence"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-book-enoch-one-enoch",
+        "source": "book_of_enoch",
+        "target": "one_enoch",
+        "type": "part_of",
+        "label": "major textual tradition",
+        "notes": ""
+      },
+      {
+        "id": "edge-one-enoch-watchers",
+        "source": "one_enoch",
+        "target": "book_of_the_watchers",
+        "type": "part_of",
+        "label": "early section / Watchers tradition",
+        "notes": ""
+      },
+      {
+        "id": "edge-watchers-genesis-6",
+        "source": "book_of_the_watchers",
+        "target": "genesis_6",
+        "type": "connected_to",
+        "label": "related biblical passage",
+        "notes": ""
+      },
+      {
+        "id": "edge-watchers-watchers",
+        "source": "book_of_the_watchers",
+        "target": "watchers",
+        "type": "connected_to",
+        "label": "central beings",
+        "notes": ""
+      },
+      {
+        "id": "edge-watchers-nephilim",
+        "source": "book_of_the_watchers",
+        "target": "nephilim_giants",
+        "type": "connected_to",
+        "label": "offspring tradition",
+        "notes": ""
+      },
+      {
+        "id": "edge-book-enoch-heavenly-journeys",
+        "source": "book_of_enoch",
+        "target": "heavenly_journeys",
+        "type": "connected_to",
+        "label": "visionary theme",
+        "notes": ""
+      },
+      {
+        "id": "edge-book-enoch-ethiopian",
+        "source": "book_of_enoch",
+        "target": "ethiopian_orthodox_tradition",
+        "type": "connected_to",
+        "label": "preservation / canon",
+        "notes": ""
+      },
+      {
+        "id": "edge-one-enoch-dead-sea-scrolls",
+        "source": "one_enoch",
+        "target": "dead_sea_scrolls",
+        "type": "source_for",
+        "label": "manuscript evidence",
+        "notes": ""
+      },
+      {
+        "id": "edge-book-enoch-second-temple",
+        "source": "book_of_enoch",
+        "target": "second_temple_judaism",
+        "type": "connected_to",
+        "label": "historical context",
+        "notes": ""
+      },
+      {
+        "id": "edge-book-enoch-jude",
+        "source": "book_of_enoch",
+        "target": "jude_14_15",
+        "type": "connected_to",
+        "label": "later textual echo",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": {
+    "book_of_enoch": "# Book of Enoch\n\n## Summary\nThe Book of Enoch is a collection of ancient Jewish apocalyptic writings associated with Enoch, the seventh generation from Adam. It is especially important for understanding Second Temple Jewish ideas about angels, watchers, judgment, heavenly journeys, messianic expectation, and the background of some later Christian and Islamic traditions.\n\n## Notes\nUse this root as the central research ledger for tracing the Book of Enoch's sections, themes, textual history, religious influence, and unresolved historical questions.\n\n## Sources\n- Early Jewish Writings — 1 Enoch\n- Encyclopaedia Britannica — First Book of Enoch\n\n## Open Questions\n- How should the different sections of 1 Enoch be dated?\n- Why was 1 Enoch preserved as scripture in the Ethiopian Orthodox tradition but not most Jewish or Christian canons?\n- How did Enochic ideas influence later apocalyptic and early Christian writings?\n- What relationship exists between the Watchers tradition, Genesis 6, and later demonology?\n\n## Claims\n- 1 Enoch is not one single uniform book but a composite collection of several writings.\n- The Book of the Watchers is one of the oldest and most influential sections of 1 Enoch.\n- Enochic literature shaped later Jewish and Christian apocalyptic imagination.\n",
+    "one_enoch": "# 1 Enoch\n\n## Summary\n1 Enoch is the best-known Enochic work and survives completely in Ge'ez, with important fragments preserved in Aramaic among the Dead Sea Scrolls and portions in Greek and Latin.\n\n## Notes\nTrack the major sections, manuscript witnesses, translation history, and relationship between Ethiopic, Aramaic, Greek, and Latin evidence.\n\n## Sources\n- Early Jewish Writings — 1 Enoch\n- Encyclopaedia Britannica — First Book of Enoch\n\n## Open Questions\n- Which sections are earliest?\n- How do the manuscript traditions differ?\n\n## Claims\n- 1 Enoch is composite rather than a single uniform composition.\n",
+    "book_of_the_watchers": "# Book of the Watchers\n\n## Summary\nThe Book of the Watchers tells of heavenly beings who descend to earth, take human wives, produce giant offspring, and teach forbidden knowledge, leading to divine judgment.\n\n## Notes\nUse this node to track Watchers traditions, Genesis 6 expansion, forbidden knowledge, giants, judgment, and later demonological interpretation.\n\n## Sources\n- Early Jewish Writings — 1 Enoch\n\n## Open Questions\n- How early is the Watchers tradition?\n- How does it interpret Genesis 6?\n\n## Claims\n- The Book of the Watchers is one of the oldest and most influential sections of 1 Enoch.\n",
+    "genesis_6": "# Genesis 6\n\n## Summary\nGenesis 6:1-4 briefly describes the \"sons of God,\" \"daughters of men,\" and Nephilim. The Book of the Watchers expands this short biblical passage into a much larger mythic and apocalyptic narrative.\n\n## Notes\nCompare the short biblical passage with the expanded Enochic narrative.\n\n## Sources\n- Sefaria — Genesis 6\n\n## Open Questions\n- What interpretive steps connect Genesis 6 to the Watchers narrative?\n\n## Claims\n- Genesis 6 is a key biblical anchor for the Watchers tradition.\n",
+    "watchers": "# Watchers\n\n## Summary\nThe Watchers are angelic beings in Enochic tradition who cross a boundary between heaven and earth and become associated with forbidden knowledge, corruption, judgment, and the origin of giants.\n\n## Notes\nTrack names, roles, sins, taught knowledge, punishment, and later influence.\n\n## Sources\n- Early Jewish Writings — 1 Enoch\n\n## Open Questions\n- How did Watchers traditions shape later angelology and demonology?\n\n## Claims\n- The Watchers are central to Enochic explanations of corruption before the flood.\n",
+    "nephilim_giants": "# Nephilim / Giants\n\n## Summary\nThe Nephilim or giants are associated with the offspring of the Watchers and human women in Enochic interpretation. Their violence and corruption become part of the reason for divine judgment.\n\n## Notes\nCompare biblical Nephilim references with Enochic giants traditions.\n\n## Sources\n- Sefaria — Genesis 6\n- Early Jewish Writings — 1 Enoch\n\n## Open Questions\n- How do Nephilim, giants, and later demon traditions relate?\n\n## Claims\n- Enochic interpretation expands the Nephilim into a broader myth of violence and judgment.\n",
+    "heavenly_journeys": "# Heavenly Journeys\n\n## Summary\nEnochic writings often portray Enoch being taken through heavenly or cosmic realms, where hidden structures of creation, judgment, angels, and divine order are revealed.\n\n## Notes\nUse this branch to track visionary geography, cosmic order, judgment scenes, and heavenly intermediaries.\n\n## Sources\n- Early Jewish Writings — 1 Enoch\n\n## Open Questions\n- How do Enochic heavenly journeys compare with later apocalyptic journeys?\n\n## Claims\n- Heavenly journey motifs are central to the authority of Enoch as revealer.\n",
+    "ethiopian_orthodox_tradition": "# Ethiopian Orthodox Tradition\n\n## Summary\n1 Enoch is preserved as scripture in the Ethiopian Orthodox Tewahedo Church, making that tradition central for understanding the book's survival and religious status.\n\n## Notes\nTrack canon status, Ge'ez preservation, transmission, and modern translations.\n\n## Sources\n- Encyclopaedia Britannica — First Book of Enoch\n\n## Open Questions\n- Why did this tradition preserve 1 Enoch as scripture?\n\n## Claims\n- Ethiopian preservation is central to the survival of the complete text of 1 Enoch.\n",
+    "dead_sea_scrolls": "# Dead Sea Scrolls\n\n## Summary\nAramaic fragments of Enochic writings were found among the Dead Sea Scrolls, showing that parts of the Enochic tradition circulated in the Second Temple period.\n\n## Notes\nTrack manuscript witnesses, fragmentary evidence, and what the scrolls show about early circulation.\n\n## Sources\n- Dead Sea Scrolls Digital Library / Israel Antiquities Authority\n\n## Open Questions\n- Which parts of Enochic literature are represented at Qumran?\n\n## Claims\n- The Dead Sea Scrolls provide important manuscript evidence for Enochic traditions before later Christian transmission.\n",
+    "second_temple_judaism": "# Second Temple Judaism\n\n## Summary\nThe Book of Enoch belongs to the wider world of Second Temple Jewish literature, where apocalyptic visions, angelology, judgment, and cosmic conflict became major themes.\n\n## Notes\nUse this context node to compare Enochic literature with apocalyptic, sectarian, wisdom, and biblical interpretive traditions.\n\n## Sources\n- Early Jewish Writings — 1 Enoch\n\n## Open Questions\n- Which Second Temple communities valued Enochic traditions most?\n\n## Claims\n- Enochic literature is best understood inside the wider Second Temple Jewish apocalyptic world.\n",
+    "jude_14_15": "# Jude 14-15\n\n## Summary\nThe New Testament letter of Jude appears to quote or closely echo 1 Enoch, making it one of the clearest examples of Enochic influence in early Christian literature.\n\n## Notes\nTrack the wording, citation formula, and implications for early Christian reception of Enochic material.\n\n## Sources\n- BibleGateway — Jude 1\n\n## Open Questions\n- What does Jude's use of Enoch imply about authority, citation, and reception?\n\n## Claims\n- Jude 14-15 is a major evidence point for Enochic influence in early Christian literature.\n"
+  },
+  "sources": [
+    {
+      "id": "early_jewish_writings_1_enoch",
+      "title": "Early Jewish Writings — 1 Enoch",
+      "url": "https://www.earlyjewishwritings.com/1enoch.html",
+      "authorPublisher": "Early Jewish Writings",
+      "accessDate": "2026-05-08",
+      "type": "article",
+      "reliability": "moderate",
+      "note": "Useful orientation page gathering basic information, text links, and bibliography."
+    },
+    {
+      "id": "britannica_first_book_of_enoch",
+      "title": "Encyclopaedia Britannica — First Book of Enoch",
+      "url": "https://www.britannica.com/topic/First-Book-of-Enoch",
+      "authorPublisher": "Encyclopaedia Britannica",
+      "accessDate": "2026-05-08",
+      "type": "encyclopedia",
+      "reliability": "moderate",
+      "note": "Concise encyclopedia overview."
+    },
+    {
+      "id": "dead_sea_scrolls_digital_library",
+      "title": "Dead Sea Scrolls Digital Library / Israel Antiquities Authority",
+      "url": "https://www.deadseascrolls.org.il/",
+      "authorPublisher": "Israel Antiquities Authority",
+      "accessDate": "2026-05-08",
+      "type": "archive",
+      "reliability": "strong",
+      "note": "Primary digital access point for Dead Sea Scrolls materials."
+    },
+    {
+      "id": "sefaria_genesis_6",
+      "title": "Sefaria — Genesis 6",
+      "url": "https://www.sefaria.org/Genesis.6",
+      "authorPublisher": "Sefaria",
+      "accessDate": "2026-05-08",
+      "type": "primary_text",
+      "reliability": "strong",
+      "note": "Readable source text for Genesis 6."
+    },
+    {
+      "id": "biblegateway_jude_1",
+      "title": "BibleGateway — Jude 1",
+      "url": "https://www.biblegateway.com/passage/?search=Jude%201&version=NRSVUE",
+      "authorPublisher": "BibleGateway",
+      "accessDate": "2026-05-08",
+      "type": "primary_text",
+      "reliability": "moderate",
+      "note": "Convenient access to Jude 1 in NRSVUE."
+    },
+    {
+      "id": "source_1778280729601",
+      "title": "New source",
+      "url": "",
+      "authorPublisher": "",
+      "accessDate": "2026-05-08",
+      "type": "unknown",
+      "reliability": "unknown",
+      "note": ""
+    },
+    {
+      "id": "source_1778280731234",
+      "title": "New source",
+      "url": "",
+      "authorPublisher": "",
+      "accessDate": "2026-05-08",
+      "type": "unknown",
+      "reliability": "unknown",
+      "note": ""
+    }
+  ],
+  "reason": "Manual snapshot"
+}

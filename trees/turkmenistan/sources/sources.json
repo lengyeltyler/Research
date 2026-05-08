@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cia_world_factbook_turkmenistan",
+    "title": "CIA World Factbook: Turkmenistan",
+    "url": "https://www.cia.gov/the-world-factbook/countries/turkmenistan/",
+    "authorPublisher": "Central Intelligence Agency",
+    "accessDate": "2026-05-08",
+    "type": "government",
+    "reliability": "strong",
+    "note": "Useful for high-level current geography, population, government, and economic context."
+  },
+  {
+    "id": "britannica_turkmenistan",
+    "title": "Encyclopaedia Britannica: Turkmenistan",
+    "url": "https://www.britannica.com/place/Turkmenistan",
+    "authorPublisher": "Encyclopaedia Britannica",
+    "accessDate": "2026-05-08",
+    "type": "encyclopedia",
+    "reliability": "moderate",
+    "note": "Good orientation source; claims should be followed to specialist sources when important."
+  }
+]

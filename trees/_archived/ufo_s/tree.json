@@ -1,0 +1,20 @@
+{
+  "id": "ufo_s",
+  "title": "UFO's",
+  "description": "Research tree for UFO's.",
+  "createdAt": "2026-05-08T23:00:43.249Z",
+  "updatedAt": "2026-05-08T23:00:43.250Z",
+  "nodes": [
+    {
+      "id": "ufo_s",
+      "title": "UFO's",
+      "type": "root",
+      "status": "researching",
+      "x": 160,
+      "y": 220,
+      "notePath": "nodes/ufo_s.md",
+      "tags": []
+    }
+  ],
+  "edges": []
+}

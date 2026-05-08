@@ -1,0 +1,86 @@
+[
+  {
+    "id": "early_jewish_writings_1_enoch",
+    "title": "Early Jewish Writings — 1 Enoch",
+    "url": "https://www.earlyjewishwritings.com/1enoch.html",
+    "authorPublisher": "Early Jewish Writings",
+    "accessDate": "2026-05-08",
+    "type": "article",
+    "reliability": "moderate",
+    "note": "Useful orientation page gathering basic information, text links, and bibliography."
+  },
+  {
+    "id": "britannica_first_book_of_enoch",
+    "title": "Encyclopaedia Britannica — First Book of Enoch",
+    "url": "https://www.britannica.com/topic/First-Book-of-Enoch",
+    "authorPublisher": "Encyclopaedia Britannica",
+    "accessDate": "2026-05-08",
+    "type": "encyclopedia",
+    "reliability": "moderate",
+    "note": "Concise encyclopedia overview."
+  },
+  {
+    "id": "dead_sea_scrolls_digital_library",
+    "title": "Dead Sea Scrolls Digital Library / Israel Antiquities Authority",
+    "url": "https://www.deadseascrolls.org.il/",
+    "authorPublisher": "Israel Antiquities Authority",
+    "accessDate": "2026-05-08",
+    "type": "archive",
+    "reliability": "strong",
+    "note": "Primary digital access point for Dead Sea Scrolls materials."
+  },
+  {
+    "id": "sefaria_genesis_6",
+    "title": "Sefaria — Genesis 6",
+    "url": "https://www.sefaria.org/Genesis.6",
+    "authorPublisher": "Sefaria",
+    "accessDate": "2026-05-08",
+    "type": "primary_text",
+    "reliability": "strong",
+    "note": "Readable source text for Genesis 6."
+  },
+  {
+    "id": "biblegateway_jude_1",
+    "title": "BibleGateway — Jude 1",
+    "url": "https://www.biblegateway.com/passage/?search=Jude%201&version=NRSVUE",
+    "authorPublisher": "BibleGateway",
+    "accessDate": "2026-05-08",
+    "type": "primary_text",
+    "reliability": "moderate",
+    "note": "Convenient access to Jude 1 in NRSVUE."
+  },
+  {
+    "id": "source_1778280729601",
+    "title": "New source",
+    "url": "",
+    "authorPublisher": "",
+    "accessDate": "2026-05-08",
+    "type": "unknown",
+    "reliability": "unknown",
+    "note": ""
+  },
+  {
+    "id": "source_1778280731234",
+    "title": "New source",
+    "url": "",
+    "authorPublisher": "",
+    "accessDate": "2026-05-08",
+    "type": "unknown",
+    "reliability": "unknown",
+    "note": ""
+  },
+  {
+    "id": "file_source_1778283130606",
+    "title": "[STATE DEPARTMENT UAP CABLE 3, TBILISI, GEORGIA, OCTOBER 30, 2001].pdf",
+    "sourceKind": "file",
+    "url": "/trees/book-of-enoch/attachments/1778283130599-state_department_uap_cable_3_tbilisi_georgia_october_30_2001.pdf",
+    "originalFilename": "[STATE DEPARTMENT UAP CABLE 3, TBILISI, GEORGIA, OCTOBER 30, 2001].pdf",
+    "storedFilePath": "attachments/1778283130599-state_department_uap_cable_3_tbilisi_georgia_october_30_2001.pdf",
+    "mimeType": "application/pdf",
+    "uploadedAt": "2026-05-08T23:32:10.606Z",
+    "accessDate": "2026-05-08",
+    "type": "archive",
+    "reliability": "unknown",
+    "note": ""
+  }
+]

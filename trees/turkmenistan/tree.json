@@ -1,0 +1,59 @@
+{
+  "id": "turkmenistan",
+  "title": "Turkmenistan",
+  "description": "Research tree for Turkmenistan and related historical, cultural, political, and geographic branches.",
+  "createdAt": "2026-05-08T00:00:00.000Z",
+  "updatedAt": "2026-05-08T22:23:02.844Z",
+  "nodes": [
+    {
+      "id": "turkmenistan",
+      "title": "Turkmenistan",
+      "type": "root",
+      "status": "researching",
+      "x": 360,
+      "y": 260,
+      "notePath": "nodes/turkmenistan.md",
+      "tags": [
+        "country",
+        "central-asia"
+      ]
+    },
+    {
+      "id": "turkmens",
+      "title": "Turkmens",
+      "type": "people_group",
+      "status": "researching",
+      "x": 620,
+      "y": 260,
+      "notePath": "nodes/turkmens.md",
+      "tags": [
+        "people-group",
+        "turkic",
+        "central-asia"
+      ],
+      "claims": [
+        {
+          "id": "claim_turkmens_oghuz",
+          "text": "Turkmens are commonly associated with Oghuz Turkic ancestry.",
+          "state": "partially_supported",
+          "evidence": "Starter claim awaiting stronger source review.",
+          "sourceIds": [
+            "britannica_turkmenistan"
+          ],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-turkmenistan-turkmens",
+      "source": "turkmenistan",
+      "target": "turkmens",
+      "type": "related_to",
+      "label": "people / ethnic group",
+      "notes": "Starter relationship for manually growing the tree."
+    }
+  ]
+}

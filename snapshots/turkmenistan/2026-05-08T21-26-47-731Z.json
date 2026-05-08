@@ -1,0 +1,88 @@
+{
+  "tree": {
+    "id": "turkmenistan",
+    "title": "Turkmenistan",
+    "description": "Research tree for Turkmenistan and related historical, cultural, political, and geographic branches.",
+    "createdAt": "2026-05-08T00:00:00.000Z",
+    "updatedAt": "2026-05-08T21:26:47.718Z",
+    "nodes": [
+      {
+        "id": "turkmenistan",
+        "title": "Turkmenistan",
+        "type": "root",
+        "status": "researching",
+        "x": 120,
+        "y": 240,
+        "notePath": "nodes/turkmenistan.md",
+        "tags": [
+          "country",
+          "central-asia"
+        ]
+      },
+      {
+        "id": "turkmens",
+        "title": "Turkmens",
+        "type": "people_group",
+        "status": "researching",
+        "x": 430,
+        "y": 240,
+        "notePath": "nodes/turkmens.md",
+        "tags": [
+          "people-group",
+          "turkic",
+          "central-asia"
+        ],
+        "claims": [
+          {
+            "id": "claim_turkmens_oghuz",
+            "text": "Turkmens are commonly associated with Oghuz Turkic ancestry.",
+            "state": "partially_supported",
+            "evidence": "Starter claim awaiting stronger source review.",
+            "sourceIds": [
+              "britannica_turkmenistan"
+            ],
+            "confidence": "moderate",
+            "disputeNotes": ""
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-turkmenistan-turkmens",
+        "source": "turkmenistan",
+        "target": "turkmens",
+        "type": "related_to",
+        "label": "people / ethnic group",
+        "notes": "Starter relationship for manually growing the tree."
+      }
+    ]
+  },
+  "notes": {
+    "turkmenistan": "# Turkmenistan\n\n## Summary\nTurkmenistan is a Central Asian country on the Caspian Sea, shaped by steppe history, Turkic migrations, Soviet rule, energy resources, and post-Soviet state building.\n\n## Notes\nUse this root node as the central ledger for branches about people, language, religion, political history, natural gas, and neighboring countries.\n\n## Sources\n- CIA World Factbook: Turkmenistan\n- Encyclopaedia Britannica: Turkmenistan\n\n## Open Questions\n- Which parts of Turkmenistan's identity are ancient, medieval, Soviet, and post-Soviet constructions?\n- Which sources disagree about ethnic origins and migration timing?\n\n## Claims\n- Turkmenistan's modern political borders and institutions were strongly shaped during the Soviet period.\n- Natural gas is central to the country's economy and foreign relations.\n",
+    "turkmens": "# Turkmens\n\n## Summary\nThe Turkmens are a Turkic people associated with Turkmenistan and communities across nearby parts of Central Asia, Iran, and Afghanistan.\n\n## Notes\nUse this node as the first branch for researching ethnic identity, origin stories, Oghuz connections, language, migration, and communities outside modern Turkmenistan.\n\n## Sources\n- Encyclopaedia Britannica: Turkmenistan\n\n## Open Questions\n- How should Oghuz ancestry be separated from later Turkmen identity?\n- Which accounts are supported by academic sources versus national historiography?\n\n## Claims\n- Turkmens are commonly associated with Oghuz Turkic ancestry.\n"
+  },
+  "sources": [
+    {
+      "id": "cia_world_factbook_turkmenistan",
+      "title": "CIA World Factbook: Turkmenistan",
+      "url": "https://www.cia.gov/the-world-factbook/countries/turkmenistan/",
+      "authorPublisher": "Central Intelligence Agency",
+      "accessDate": "2026-05-08",
+      "type": "government",
+      "reliability": "strong",
+      "note": "Useful for high-level current geography, population, government, and economic context."
+    },
+    {
+      "id": "britannica_turkmenistan",
+      "title": "Encyclopaedia Britannica: Turkmenistan",
+      "url": "https://www.britannica.com/place/Turkmenistan",
+      "authorPublisher": "Encyclopaedia Britannica",
+      "accessDate": "2026-05-08",
+      "type": "encyclopedia",
+      "reliability": "moderate",
+      "note": "Good orientation source; claims should be followed to specialist sources when important."
+    }
+  ],
+  "reason": "Manual snapshot"
+}
