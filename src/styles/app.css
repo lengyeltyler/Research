@@ -500,6 +500,41 @@ textarea { resize: vertical; line-height: 1.4; }
 .source-row-card .source-edit-grid {
   padding: 10px;
 }
+.source-list-scroll {
+  display: grid;
+  gap: 10px;
+  max-height: min(520px, calc(100vh - 430px));
+  min-height: 120px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-color: var(--border-strong) transparent;
+  scrollbar-width: thin;
+}
+.source-list-scroll::-webkit-scrollbar,
+.right-rail::-webkit-scrollbar,
+.branch-list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.source-list-scroll::-webkit-scrollbar-track,
+.right-rail::-webkit-scrollbar-track,
+.branch-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.source-list-scroll::-webkit-scrollbar-thumb,
+.right-rail::-webkit-scrollbar-thumb,
+.branch-list::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.source-list-scroll::-webkit-scrollbar-thumb:hover,
+.right-rail::-webkit-scrollbar-thumb:hover,
+.branch-list::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+  background-clip: content-box;
+}
 .source-delete-button {
   display: grid;
   place-items: center;
