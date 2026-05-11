@@ -130,6 +130,12 @@ export function makeNode(title: string, parent?: ResearchNode, type: ResearchNod
   return {
     id: idBase,
     title,
+    treeId: "",
+    clusterId: "",
+    parentId: parent?.id,
+    importance: parent ? "detail" : "root",
+    level: parent ? (parent.level ?? 0) + 1 : 0,
+    layoutHint: parent ? "leaf" : "root",
     type,
     status: "unchecked",
     x: offset.x,

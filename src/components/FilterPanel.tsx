@@ -1,4 +1,5 @@
 import { Filter } from "lucide-react";
+import { researchCategories, type ResearchCategory } from "../lib/types";
 
 export interface GraphFilters {
   hideArchived: boolean;
@@ -8,6 +9,7 @@ export interface GraphFilters {
   hideGhosts: boolean;
   hideSources: boolean;
   verifiedOnly: boolean;
+  category: "" | ResearchCategory;
 }
 
 interface Props {
@@ -15,7 +17,9 @@ interface Props {
   onChange: (filters: GraphFilters) => void;
 }
 
-const labels: Array<[keyof GraphFilters, string]> = [
+type BooleanFilterKey = Exclude<keyof GraphFilters, "category">;
+
+const labels: Array<[BooleanFilterKey, string]> = [
   ["hideArchived", "hide archived"],
   ["onlyDisputed", "only disputed"],
   ["onlyQuestions", "only questions"],
@@ -35,6 +39,13 @@ export function FilterPanel({ filters, onChange }: Props) {
           {label}
         </label>
       ))}
+      <label>
+        Category
+        <select value={filters.category} onChange={(event) => onChange({ ...filters, category: event.target.value as GraphFilters["category"] })}>
+          <option value="">all</option>
+          {researchCategories.map((category) => <option key={category} value={category}>{category}</option>)}
+        </select>
+      </label>
     </section>
   );
 }

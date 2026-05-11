@@ -2,14 +2,18 @@ import { Archive, Camera, Inbox, Moon, Plus, Save, Share2, Split, Sun, Trash2 } 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ExportPanel } from "./components/ExportPanel";
 import { FilterPanel, type GraphFilters } from "./components/FilterPanel";
-import { GraphCanvas } from "./components/GraphCanvas";
 import { InboxPanel } from "./components/InboxPanel";
 import { NodeInspector } from "./components/NodeInspector";
+import { ResearchLibrary } from "./components/ResearchLibrary";
 import { SearchPanel, type SearchHit } from "./components/SearchPanel";
 import { SourcePanel } from "./components/SourcePanel";
+import { TreeAtlas } from "./components/TreeAtlas";
+import { TreeGraph } from "./components/TreeGraph";
 import { TreeList } from "./components/TreeList";
 import { CollapsibleSection } from "./components/CollapsibleSection";
 import { archiveTree, createGlobalSnapshot, createTree, ensureUniqueNode, loadInbox, loadTrees, makeEdge, makeNode, noteForNode, saveInbox, saveTree } from "./lib/researchStore";
+import { getNodeDetail, getRelatedTreeLinks, getTreeSummaries, type AppMode } from "./lib/researchSelectors";
+import { getTreeConnections } from "./lib/treeConnectionSelectors";
 import { relationshipTypes, type InboxItem, type LoadedTree, type ResearchEdge, type ResearchNode, type ResearchNodeType, type ResearchSource } from "./lib/types";
 
 const initialFilters: GraphFilters = {
@@ -19,17 +23,21 @@ const initialFilters: GraphFilters = {
   onlyClaims: false,
   hideGhosts: false,
   hideSources: false,
-  verifiedOnly: false
+  verifiedOnly: false,
+  category: ""
 };
 
 export default function App() {
   const [trees, setTrees] = useState<LoadedTree[]>([]);
   const [inboxItems, setInboxItems] = useState<InboxItem[]>([]);
-  const [activeTreeId, setActiveTreeId] = useState("");
-  const [selectedNodeId, setSelectedNodeId] = useState("");
+  const [mode, setMode] = useState<AppMode>("atlas");
+  const [activeTreeId, setActiveTreeId] = useState<string | null>(null);
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
+  const [expandedBranchId, setExpandedBranchId] = useState<string | null>(null);
   const [saveStatus, setSaveStatus] = useState<"saved" | "dirty" | "saving" | "failed">("saved");
   const [showExport, setShowExport] = useState(false);
   const [showInbox, setShowInbox] = useState(false);
+  const [showLibrary, setShowLibrary] = useState(false);
   const [query, setQuery] = useState("");
   const [filters, setFilters] = useState(initialFilters);
   const [error, setError] = useState("");
@@ -56,14 +64,18 @@ export default function App() {
       .then(([loadedTrees, loadedInbox]) => {
         setTrees(loadedTrees);
         setInboxItems(loadedInbox);
-        setActiveTreeId(loadedTrees[0]?.tree.id ?? "");
-        setSelectedNodeId(loadedTrees[0]?.tree.nodes[0]?.id ?? "");
+        setMode("atlas");
+        setActiveTreeId(null);
+        setSelectedNodeId(null);
       })
       .catch((cause) => setError(cause instanceof Error ? cause.message : "Unable to load research workspace"));
   }, []);
 
   const activeTree = useMemo(() => trees.find((item) => item.tree.id === activeTreeId), [trees, activeTreeId]);
-  const selectedNode = activeTree?.tree.nodes.find((node) => node.id === selectedNodeId);
+  const selectedNode = getNodeDetail(activeTree, selectedNodeId);
+  const treeSummaries = useMemo(() => getTreeSummaries(trees), [trees]);
+  const treeConnections = useMemo(() => getTreeConnections(trees), [trees]);
+  const relatedTreeLinks = useMemo(() => activeTree && selectedNodeId ? getRelatedTreeLinks(trees, activeTree.tree.id, selectedNodeId) : [], [activeTree, selectedNodeId, trees]);
 
   const replaceTree = (saved: LoadedTree) => {
     setTrees((current) => current.map((item) => (item.tree.id === saved.tree.id ? saved : item)));
@@ -92,15 +104,27 @@ export default function App() {
 
   const handleSelectTree = (treeId: string) => {
     const tree = trees.find((item) => item.tree.id === treeId);
+    const root = tree?.tree.nodes.find((node) => node.id === tree.tree.metadata?.rootNodeId) ?? tree?.tree.nodes.find((node) => node.type === "root") ?? tree?.tree.nodes[0];
+    setMode("tree-overview");
     setActiveTreeId(treeId);
-    setSelectedNodeId(tree?.tree.nodes[0]?.id ?? "");
+    setSelectedNodeId(root?.id ?? null);
+    setExpandedBranchId(root?.id ?? null);
     setQuery("");
   };
 
   const handleSelectSidebarNode = (treeId: string, nodeId: string) => {
+    setMode("branch-view");
     setActiveTreeId(treeId);
     setSelectedNodeId(nodeId);
+    setExpandedBranchId(nodeId);
     setQuery("");
+  };
+
+  const handleAtlas = () => {
+    setMode("atlas");
+    setActiveTreeId(null);
+    setSelectedNodeId(null);
+    setExpandedBranchId(null);
   };
 
   const handleCreateTree = async () => {
@@ -108,8 +132,10 @@ export default function App() {
     if (!title?.trim()) return;
     const created = await createTree(title);
     setTrees((current) => [created, ...current]);
+    setMode("tree-overview");
     setActiveTreeId(created.tree.id);
-    setSelectedNodeId(created.tree.nodes[0]?.id ?? "");
+    setSelectedNodeId(created.tree.nodes[0]?.id ?? null);
+    setExpandedBranchId(created.tree.nodes[0]?.id ?? null);
     showToast("Tree created.");
   };
 
@@ -119,7 +145,15 @@ export default function App() {
     const defaultTitle = type === "people_group" ? "New people/group" : `New ${type}`;
     const nodeTitle = title ?? window.prompt("Node title", defaultTitle);
     if (!nodeTitle?.trim()) return;
-    const node = ensureUniqueNode(makeNode(nodeTitle, parent, type), activeTree.tree);
+    const node = ensureUniqueNode({
+      ...makeNode(nodeTitle, parent, type),
+      treeId: activeTree.tree.id,
+      clusterId: activeTree.tree.metadata?.id ?? activeTree.tree.id,
+      parentId: parent?.id,
+      importance: "detail",
+      level: parent ? (parent.level ?? 0) + 1 : 0,
+      layoutHint: "leaf"
+    }, activeTree.tree);
     const edge = parent ? makeEdge(parent.id, node.id, "branch", "part_of") : undefined;
     const next = {
       ...activeTree,
@@ -131,6 +165,7 @@ export default function App() {
       notes: { ...activeTree.notes, [node.id]: noteForNode(node.title) }
     };
     setSelectedNodeId(node.id);
+    setExpandedBranchId(parent?.id ?? node.id);
     setTrees((current) => current.map((loaded) => (loaded.tree.id === next.tree.id ? next : loaded)));
     void persistTree(next, `Created ${type} node "${node.title}"`);
   };
@@ -194,7 +229,7 @@ export default function App() {
         nodes: loaded.tree.nodes.map((node) => node.id === selectedNode.id ? { ...node, status: "archived" } : node)
       }
     }), `Archived node "${selectedNode.title}"`);
-    setSelectedNodeId(activeTree.tree.nodes[0]?.id ?? "");
+    setSelectedNodeId(activeTree.tree.nodes[0]?.id ?? null);
     showToast("Node archived.");
   };
 
@@ -205,8 +240,10 @@ export default function App() {
       const loaded = await loadTrees();
       setTrees(loaded);
       if (treeId === activeTreeId) {
-        setActiveTreeId(loaded[0]?.tree.id ?? "");
-        setSelectedNodeId(loaded[0]?.tree.nodes[0]?.id ?? "");
+        setMode("atlas");
+        setActiveTreeId(null);
+        setSelectedNodeId(null);
+        setExpandedBranchId(null);
       }
       showToast("Tree archived.");
     } catch (cause) {
@@ -224,8 +261,10 @@ export default function App() {
   };
 
   const handleSearchHit = (hit: SearchHit) => {
+    setMode("node-focus");
     setActiveTreeId(hit.tree.tree.id);
     setSelectedNodeId(hit.node.id);
+    setExpandedBranchId(hit.node.parentId ?? hit.node.id);
   };
 
   const path = useMemo(() => {
@@ -253,9 +292,9 @@ export default function App() {
         event.preventDefault();
         searchRef.current?.focus();
       } else if (event.key.toLowerCase() === "n") {
-        createBranch("topic");
+        if (mode !== "atlas") createBranch("topic");
       } else if (event.key.toLowerCase() === "c") {
-        createBranch("topic");
+        if (mode !== "atlas") createBranch("topic");
       } else if (event.key.toLowerCase() === "s") {
         event.preventDefault();
         document.querySelector<HTMLButtonElement>('button[title="Save node"]')?.click();
@@ -271,37 +310,59 @@ export default function App() {
 
   return (
     <main className="app-shell">
-      <TreeList trees={trees} activeTreeId={activeTreeId} selectedNodeId={selectedNodeId} onSelect={handleSelectTree} onSelectNode={handleSelectSidebarNode} onCreate={handleCreateTree} onArchiveTree={handleArchiveTree} />
+      <TreeList trees={trees} activeTreeId={activeTreeId ?? ""} selectedNodeId={selectedNodeId ?? ""} onSelect={handleSelectTree} onSelectNode={handleSelectSidebarNode} onCreate={handleCreateTree} onArchiveTree={handleArchiveTree} />
       <section className="workspace">
         <header className="toolbar">
           <div>
             <p className="eyebrow">Research ledger</p>
-            <h1>{activeTree?.tree.title ?? "No tree loaded"}</h1>
+            <h1>{mode === "atlas" ? "Research Atlas" : activeTree?.tree.title ?? "No tree loaded"}</h1>
             <div className="breadcrumb">
-              {path.map((node, index) => <button key={node.id} onClick={() => setSelectedNodeId(node.id)}>{index > 0 && <span>→</span>}{node.title}</button>)}
+              {mode !== "atlas" ? path.map((node, index) => <button key={node.id} onClick={() => { setMode("node-focus"); setSelectedNodeId(node.id); setExpandedBranchId(node.id); }}>{index > 0 && <span>→</span>}{node.title}</button>) : <span>Tree bubbles only. Open one tree to render its internal graph.</span>}
             </div>
           </div>
           <div className="toolbar-actions">
-            <button onClick={() => createBranch("topic")}><Plus size={16} /> Add node</button>
-            <button onClick={handleAddEdge}><Share2 size={16} /> Add edge</button>
+            <button onClick={handleAtlas}>Atlas View</button>
+            <select className="tree-switcher" value={activeTreeId ?? ""} onChange={(event) => event.target.value ? handleSelectTree(event.target.value) : handleAtlas()}>
+              <option value="">Tree switcher</option>
+              {trees.map((tree) => <option key={tree.tree.id} value={tree.tree.id}>{tree.tree.title}</option>)}
+            </select>
+            <button onClick={() => createBranch("topic")} disabled={mode === "atlas" || !activeTree}><Plus size={16} /> Add node</button>
+            <button onClick={handleAddEdge} disabled={mode === "atlas" || !activeTree}><Share2 size={16} /> Add edge</button>
             <button onClick={() => setShowInbox((value) => !value)}><Inbox size={16} /> Inbox</button>
+            <button onClick={() => setShowLibrary((value) => !value)}>Library</button>
             <button onClick={() => setShowExport((value) => !value)}><Split size={16} /> Export</button>
             <button onClick={() => void handleSnapshot()}><Camera size={16} /> Snapshot</button>
             <button onClick={() => setTheme((value) => value === "dark" ? "light" : "dark")}>{theme === "dark" ? <Sun size={16} /> : <Moon size={16} />} {theme === "dark" ? "Light" : "Dark"}</button>
-            <button className="danger" onClick={handleDeleteNode} disabled={!selectedNode || selectedNode.type === "root"}><Trash2 size={16} /> Archive</button>
+            <button className="danger" onClick={handleDeleteNode} disabled={mode === "atlas" || !selectedNode || selectedNode.type === "root"}><Trash2 size={16} /> Archive</button>
             <span className={`save-state ${saveStatus !== "saved" ? "unsaved" : ""}`}><Save size={14} /> {saveStatus === "saving" ? "Saving..." : saveStatus === "failed" ? "Save failed" : saveStatus === "dirty" ? "Unsaved changes" : "Saved"}</span>
           </div>
         </header>
 
         <SearchPanel trees={trees} query={query} inputRef={searchRef} onQueryChange={setQuery} onSelectHit={handleSearchHit} />
         <FilterPanel filters={filters} onChange={setFilters} />
+        {showLibrary && <ResearchLibrary trees={trees} query={query} onSelectNode={handleSelectSidebarNode} />}
         {error && <div className="error-banner">{error}</div>}
         {showInbox && <InboxPanel items={inboxItems} onChange={handleInboxChange} />}
         {showExport && activeTree && <ExportPanel loadedTree={activeTree} allTrees={trees} onToast={showToast} />}
-        <GraphCanvas loadedTree={activeTree} allTrees={trees} selectedNodeId={selectedNodeId} filters={filters} searchQuery={query} onSelectNode={handleSelectSidebarNode} onNodesChange={handleNodesMove} onEdgesChange={handleEdgesChange} />
+        {mode === "atlas" ? (
+          <TreeAtlas trees={treeSummaries} connections={treeConnections} onOpenTree={(treeId) => handleSelectTree(treeId)} />
+        ) : activeTree ? (
+          <TreeGraph
+            loadedTree={activeTree}
+            selectedNodeId={selectedNodeId}
+            expandedBranchId={expandedBranchId}
+            filters={filters}
+            graphMode={mode}
+            onSelectNode={(nodeId, nextMode) => { setMode(nextMode); setSelectedNodeId(nodeId); }}
+            onExpandBranch={setExpandedBranchId}
+            onBackToOverview={() => setMode("tree-overview")}
+          />
+        ) : (
+          <TreeAtlas trees={treeSummaries} connections={treeConnections} onOpenTree={(treeId) => handleSelectTree(treeId)} />
+        )}
       </section>
       <aside className="right-rail">
-        {activeTree && selectedNode ? (
+        {mode !== "atlas" && activeTree && selectedNode ? (
           <>
             <section className="panel quick-create-panel">
               <CollapsibleSection title="Quick Create">
@@ -316,7 +377,16 @@ export default function App() {
                 </div>
               </CollapsibleSection>
             </section>
-            <NodeInspector loadedTree={activeTree} node={selectedNode} markdown={activeTree.notes[selectedNode.id] ?? ""} status={saveStatus} onSave={handleNodeSave} onSelectNode={setSelectedNodeId} />
+            <NodeInspector
+              loadedTree={activeTree}
+              node={selectedNode}
+              markdown={activeTree.notes[selectedNode.id] ?? ""}
+              status={saveStatus}
+              onSave={handleNodeSave}
+              onSelectNode={(nodeId) => { setSelectedNodeId(nodeId); setExpandedBranchId(nodeId); }}
+              relatedTreeLinks={relatedTreeLinks}
+              onOpenRelatedNode={handleSelectSidebarNode}
+            />
             <SourcePanel loadedTree={activeTree} onChange={handleSourcesChange} onToast={showToast} />
           </>
         ) : (

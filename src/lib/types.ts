@@ -4,6 +4,13 @@ export const relationshipTypes = [
   "related_to",
   "descended_from",
   "influenced_by",
+  "genealogy",
+  "legal_tradition",
+  "political_succession",
+  "theological_dispute",
+  "empire_state_formation",
+  "conversion",
+  "reform_standardization",
   "located_in",
   "source_for",
   "contradicts",
@@ -18,6 +25,20 @@ export const relationshipTypes = [
 export const sourceTypes = ["academic", "government", "encyclopedia", "book", "article", "news", "forum", "archive", "primary_text", "unknown"] as const;
 export const reliabilityLevels = ["primary", "strong", "moderate", "weak", "unknown"] as const;
 export const claimStates = ["unchecked", "partially_supported", "strongly_supported", "disputed", "rejected"] as const;
+export const researchCategories = [
+  "Person",
+  "Place",
+  "Event",
+  "Concept",
+  "Legal tradition",
+  "Empire/state",
+  "Text/scripture",
+  "Scripture/Text",
+  "Religious movement",
+  "Legal/doctrinal teaching",
+  "Controversy",
+  "User question"
+] as const;
 
 export type ResearchNodeType = (typeof nodeTypes)[number];
 export type ResearchStatus = (typeof nodeStatuses)[number];
@@ -25,6 +46,7 @@ export type RelationshipType = (typeof relationshipTypes)[number];
 export type SourceType = (typeof sourceTypes)[number];
 export type ReliabilityLevel = (typeof reliabilityLevels)[number];
 export type ClaimState = (typeof claimStates)[number];
+export type ResearchCategory = (typeof researchCategories)[number];
 
 export const typeHelp: Record<ResearchNodeType, string> = {
   root: "central subject of a Tree",
@@ -52,6 +74,24 @@ export interface ResearchNode {
   id: string;
   title: string;
   type: ResearchNodeType;
+  treeId?: string;
+  clusterId?: string;
+  parentId?: string;
+  category?: ResearchCategory;
+  importance?: "root" | "major" | "detail";
+  level?: number;
+  fixedPosition?: boolean;
+  layoutHint?: "root" | "branch" | "leaf" | "bridge";
+  dateRange?: string;
+  shortSummary?: string;
+  detailedSummary?: string;
+  relatedQuestions?: string[];
+  relatedAnswers?: string[];
+  connections?: Array<{
+    targetId: string;
+    relationship: string;
+    explanation: string;
+  }>;
   status: ResearchStatus;
   x: number;
   y: number;
@@ -67,6 +107,28 @@ export interface ResearchEdge {
   label: string;
   type: RelationshipType;
   notes?: string;
+}
+
+export interface ResearchBridgeEdge {
+  id: string;
+  sourceTreeId: string;
+  sourceNodeId: string;
+  targetTreeId: string;
+  targetNodeId: string;
+  label: string;
+  type: RelationshipType | "cross_tree";
+  notes?: string;
+}
+
+export interface ResearchTreeMetadata {
+  id: string;
+  title: string;
+  themeColor: "teal" | "green" | "purple" | "gold" | "rose" | "blue";
+  rootNodeId: string;
+  preferredPosition: { x: number; y: number };
+  layoutRadius: number;
+  branchSpacing: number;
+  description: string;
 }
 
 export interface ResearchSource {
@@ -103,6 +165,17 @@ export interface ResearchTree {
   updatedAt: string;
   nodes: ResearchNode[];
   edges: ResearchEdge[];
+  metadata?: ResearchTreeMetadata;
+  bridgeEdges?: ResearchBridgeEdge[];
+  qas?: ResearchQa[];
+}
+
+export interface ResearchQa {
+  id: string;
+  question: string;
+  answer: string;
+  linkedNodeIds: string[];
+  dateAdded: string;
 }
 
 export interface LoadedTree {
@@ -125,6 +198,9 @@ export interface ParsedNote {
   title: string;
   summary: string;
   notes: string;
+  relatedQuestions: string[];
+  assistantAnswerSummary: string;
+  connections: string[];
   sources: string[];
   openQuestions: string[];
   claims: string[];

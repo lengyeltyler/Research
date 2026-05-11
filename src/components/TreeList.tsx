@@ -2,6 +2,9 @@ import { Archive, ChevronDown, FolderTree, Plus } from "lucide-react";
 import { useState } from "react";
 import type { LoadedTree, ResearchNode } from "../lib/types";
 
+const MAX_SIDEBAR_BRANCH_DEPTH = 1;
+const MAX_SIDEBAR_BRANCHES = 80;
+
 interface Props {
   trees: LoadedTree[];
   activeTreeId: string;
@@ -26,7 +29,8 @@ function BranchList({ loadedTree, parentId, depth, selectedNodeId, onSelectNode 
   selectedNodeId: string;
   onSelectNode: (treeId: string, nodeId: string) => void;
 }) {
-  const children = childNodes(loadedTree, parentId);
+  const allChildren = childNodes(loadedTree, parentId);
+  const children = allChildren.slice(0, MAX_SIDEBAR_BRANCHES);
   if (!children.length) return null;
 
   return (
@@ -41,9 +45,16 @@ function BranchList({ loadedTree, parentId, depth, selectedNodeId, onSelectNode 
             <span>{node.title}</span>
             <small>{node.type.replaceAll("_", " ")}</small>
           </button>
-          <BranchList loadedTree={loadedTree} parentId={node.id} depth={depth + 1} selectedNodeId={selectedNodeId} onSelectNode={onSelectNode} />
+          {depth + 1 < MAX_SIDEBAR_BRANCH_DEPTH && (
+            <BranchList loadedTree={loadedTree} parentId={node.id} depth={depth + 1} selectedNodeId={selectedNodeId} onSelectNode={onSelectNode} />
+          )}
         </li>
       ))}
+      {allChildren.length > MAX_SIDEBAR_BRANCHES && (
+        <li className="branch-list-more">
+          <span>Use Library for {allChildren.length - MAX_SIDEBAR_BRANCHES} more nodes</span>
+        </li>
+      )}
     </ul>
   );
 }

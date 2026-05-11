@@ -175,6 +175,12 @@ function researchApi(): Plugin {
                 {
                   id,
                   title: rootTitle,
+                  treeId: id,
+                  clusterId: id,
+                  importance: "root",
+                  level: 0,
+                  layoutHint: "root",
+                  fixedPosition: true,
                   type: "root",
                   status: "researching",
                   x: 160,

@@ -1,0 +1,13 @@
+export const ATLAS_TREE_BUBBLE_CAP = 80;
+export const ACTIVE_TREE_NODE_CAP = 100;
+export const ACTIVE_TREE_EDGE_CAP = 160;
+export const TREE_OVERVIEW_NODE_CAP = 20;
+export const TREE_OVERVIEW_EDGE_CAP = 20;
+export const BRANCH_VIEW_NODE_CAP = 24;
+export const BRANCH_VIEW_EDGE_CAP = 28;
+export const NODE_FOCUS_NODE_CAP = 18;
+export const NODE_FOCUS_EDGE_CAP = 24;
+export const FULL_TREE_AUTO_RENDER_CAP = 40;
+export const SEARCH_RESULT_CAP = 160;
+export const LIBRARY_RESULT_CAP = 200;
+export const CHILD_EXPANSION_DEPTH = 1;

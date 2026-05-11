@@ -2,6 +2,7 @@ import { RotateCcw, Save, Sparkles } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { CollapsibleSection } from "./CollapsibleSection";
 import { buildMarkdown, parseMarkdown } from "../lib/markdown";
+import type { RelatedTreeLink } from "../lib/researchSelectors";
 import {
   claimStates,
   nodeStatuses,
@@ -21,6 +22,8 @@ interface Props {
   status: "saved" | "dirty" | "saving" | "failed";
   onSave: (node: ResearchNode, markdown: string) => Promise<void>;
   onSelectNode: (nodeId: string) => void;
+  relatedTreeLinks?: RelatedTreeLink[];
+  onOpenRelatedNode?: (treeId: string, nodeId: string) => void;
 }
 
 function emptyClaim(): ResearchClaim {
@@ -35,7 +38,7 @@ function emptyClaim(): ResearchClaim {
   };
 }
 
-export function NodeInspector({ loadedTree, node, markdown, status, onSave, onSelectNode }: Props) {
+export function NodeInspector({ loadedTree, node, markdown, status, onSave, onSelectNode, relatedTreeLinks = [], onOpenRelatedNode }: Props) {
   const [draftNode, setDraftNode] = useState(node);
   const [draftMarkdown, setDraftMarkdown] = useState(markdown);
   const parsed = useMemo(() => parseMarkdown(draftMarkdown), [draftMarkdown]);
@@ -118,6 +121,21 @@ export function NodeInspector({ loadedTree, node, markdown, status, onSave, onSe
         <textarea value={parsed.notes} onChange={(event) => updateNote({ notes: event.target.value })} rows={8} />
       </CollapsibleSection>
 
+      <CollapsibleSection title="Q&A Context" defaultOpen={parsed.relatedQuestions.length > 0 || Boolean(parsed.assistantAnswerSummary)} aside={`${parsed.relatedQuestions.length}`}>
+        <label>
+          Related user question(s)
+          <textarea value={parsed.relatedQuestions.join("\n")} onChange={(event) => updateNote({ relatedQuestions: event.target.value.split("\n").filter(Boolean) })} rows={4} />
+        </label>
+        <label>
+          Assistant answer summary
+          <textarea value={parsed.assistantAnswerSummary} onChange={(event) => updateNote({ assistantAnswerSummary: event.target.value })} rows={5} />
+        </label>
+        <label>
+          Connections
+          <textarea value={parsed.connections.join("\n")} onChange={(event) => updateNote({ connections: event.target.value.split("\n").filter(Boolean) })} rows={4} />
+        </label>
+      </CollapsibleSection>
+
       <CollapsibleSection title="Backlinks" aside={`${incoming.length + outgoing.length}`}>
         <div className="backlinks">
           <h3>Connected From</h3>
@@ -130,6 +148,17 @@ export function NodeInspector({ loadedTree, node, markdown, status, onSave, onSe
             const target = loadedTree.tree.nodes.find((item) => item.id === edge.target);
             return <button key={edge.id} onClick={() => onSelectNode(edge.target)}>{target?.title ?? edge.target} <span>{edge.label}</span></button>;
           }) : <p>None yet.</p>}
+        </div>
+      </CollapsibleSection>
+
+      <CollapsibleSection title="Related Trees" aside={`${relatedTreeLinks.length}`}>
+        <div className="related-tree-links">
+          {relatedTreeLinks.length ? relatedTreeLinks.map((link) => (
+            <button key={link.id} onClick={() => onOpenRelatedNode?.(link.treeId, link.nodeId)}>
+              <strong>{link.treeTitle}</strong>
+              <span>{link.nodeTitle} / {link.label}</span>
+            </button>
+          )) : <p>No cross-tree links for this node.</p>}
         </div>
       </CollapsibleSection>
 
@@ -170,6 +199,18 @@ export function NodeInspector({ loadedTree, node, markdown, status, onSave, onSe
           <dd>{draftNode.notePath}</dd>
           <dt>Position</dt>
           <dd>{Math.round(draftNode.x)}, {Math.round(draftNode.y)}</dd>
+          {draftNode.category && (
+            <>
+              <dt>Category</dt>
+              <dd>{draftNode.category}</dd>
+            </>
+          )}
+          {draftNode.dateRange && (
+            <>
+              <dt>Date range</dt>
+              <dd>{draftNode.dateRange}</dd>
+            </>
+          )}
         </dl>
       </CollapsibleSection>
     </section>

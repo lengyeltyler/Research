@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
 import { useMemo, type RefObject } from "react";
-import { parseMarkdown } from "../lib/markdown";
+import { searchResearch } from "../lib/researchSelectors";
 import type { LoadedTree, ResearchNode } from "../lib/types";
 
 export interface SearchHit {
@@ -17,42 +17,16 @@ interface Props {
   onSelectHit: (hit: SearchHit) => void;
 }
 
-function nodeHaystack(tree: LoadedTree, node: ResearchNode) {
-  const note = parseMarkdown(tree.notes[node.id] ?? "");
-  const edgeLabels = tree.tree.edges
-    .filter((edge) => edge.source === node.id || edge.target === node.id)
-    .map((edge) => `${edge.label} ${edge.type} ${edge.notes ?? ""}`);
-  const sources = tree.sources.map((source) => `${source.title} ${source.url ?? ""} ${source.authorPublisher ?? ""} ${source.type} ${source.reliability} ${source.note ?? ""}`);
-  const metadataClaims = (node.claims ?? []).map((claim) => `${claim.text} ${claim.state} ${claim.evidence} ${claim.disputeNotes}`);
-  return [
-    tree.tree.title,
-    tree.tree.description,
-    node.title,
-    node.type,
-    node.status,
-    ...node.tags,
-    tree.notes[node.id] ?? "",
-    ...note.sources,
-    ...note.claims,
-    ...note.openQuestions,
-    ...metadataClaims,
-    ...sources,
-    ...edgeLabels
-  ].join(" ");
-}
-
 export function SearchPanel({ trees, query, inputRef, onQueryChange, onSelectHit }: Props) {
   const grouped = useMemo(() => {
-    const needle = query.toLowerCase().trim();
-    if (!needle) return [];
-    return trees
-      .map((tree) => ({
-        tree,
-        hits: tree.tree.nodes
-          .filter((node) => nodeHaystack(tree, node).toLowerCase().includes(needle))
-          .map((node) => ({ tree, node, matchText: node.title }))
-      }))
-      .filter((group) => group.hits.length);
+    const hits = searchResearch(trees, query);
+    const groups = new Map<string, { tree: LoadedTree; hits: SearchHit[] }>();
+    for (const hit of hits) {
+      const group = groups.get(hit.tree.tree.id) ?? { tree: hit.tree, hits: [] };
+      group.hits.push(hit);
+      groups.set(hit.tree.tree.id, group);
+    }
+    return [...groups.values()];
   }, [query, trees]);
 
   return (
@@ -69,7 +43,8 @@ export function SearchPanel({ trees, query, inputRef, onQueryChange, onSelectHit
               {group.hits.map((hit) => (
                 <button key={hit.node.id} onClick={() => onSelectHit(hit)}>
                   <strong>{hit.node.title}</strong>
-                  <span>{hit.node.type} / {hit.node.status}</span>
+                  <span>{group.tree.tree.title} / {hit.node.category ?? hit.node.type} / {hit.node.status}</span>
+                  {hit.matchText && <small>{hit.matchText}</small>}
                 </button>
               ))}
             </div>

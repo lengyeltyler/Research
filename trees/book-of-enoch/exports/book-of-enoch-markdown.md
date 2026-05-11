@@ -3,7 +3,7 @@
 Research tree for the Book of Enoch, Enochic literature, Watchers traditions, textual history, and religious influence.
 
 Created: 2026-05-08T00:00:00.000Z
-Updated: 2026-05-08T22:52:11.236Z
+Updated: 2026-05-08T23:32:10.617Z
 
 ## Book of Enoch
 

@@ -3,6 +3,9 @@ import type { ParsedNote } from "./types";
 const sectionMap: Record<string, keyof ParsedNote> = {
   summary: "summary",
   notes: "notes",
+  "related user questions": "relatedQuestions",
+  "assistant answer summary": "assistantAnswerSummary",
+  connections: "connections",
   sources: "sources",
   "open questions": "openQuestions",
   claims: "claims"
@@ -22,7 +25,17 @@ function parseList(value: string) {
 
 export function parseMarkdown(markdown: string): ParsedNote {
   const lines = markdown.split(/\r?\n/);
-  const parsed: ParsedNote = { title: "", summary: "", notes: "", sources: [], openQuestions: [], claims: [] };
+  const parsed: ParsedNote = {
+    title: "",
+    summary: "",
+    notes: "",
+    relatedQuestions: [],
+    assistantAnswerSummary: "",
+    connections: [],
+    sources: [],
+    openQuestions: [],
+    claims: []
+  };
   let current: keyof ParsedNote | null = null;
   const buckets: Record<string, string[]> = {};
 
@@ -43,6 +56,9 @@ export function parseMarkdown(markdown: string): ParsedNote {
 
   parsed.summary = (buckets.summary ?? []).join("\n").trim();
   parsed.notes = (buckets.notes ?? []).join("\n").trim();
+  parsed.relatedQuestions = parseList((buckets.relatedQuestions ?? []).join("\n"));
+  parsed.assistantAnswerSummary = (buckets.assistantAnswerSummary ?? []).join("\n").trim();
+  parsed.connections = parseList((buckets.connections ?? []).join("\n"));
   parsed.sources = parseList((buckets.sources ?? []).join("\n"));
   parsed.openQuestions = parseList((buckets.openQuestions ?? []).join("\n"));
   parsed.claims = parseList((buckets.claims ?? []).join("\n"));
@@ -57,6 +73,15 @@ ${note.summary.trim()}
 
 ## Notes
 ${note.notes.trim()}
+
+## Related User Questions
+${listToLines(note.relatedQuestions)}
+
+## Assistant Answer Summary
+${note.assistantAnswerSummary.trim()}
+
+## Connections
+${listToLines(note.connections)}
 
 ## Sources
 ${listToLines(note.sources)}
@@ -74,6 +99,9 @@ export function createNodeMarkdown(title: string) {
     title,
     summary: "Short plain-English summary.",
     notes: "",
+    relatedQuestions: [],
+    assistantAnswerSummary: "",
+    connections: [],
     sources: [],
     openQuestions: [],
     claims: []

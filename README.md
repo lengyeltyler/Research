@@ -127,6 +127,83 @@ git push -u origin main
 
 Every research change can be diffed, reviewed, reverted, branched, or backed up like code.
 
+## External Drive Backup
+
+The repo includes local backup scripts for the `PhilsHome` external drive. On macOS, the drive is expected at:
+
+```text
+/Volumes/PhilsHome
+```
+
+The current mirror backup is stored at:
+
+```text
+/Volumes/PhilsHome/ResearchBackups/Research
+```
+
+Historical rollback snapshots are stored at:
+
+```text
+/Volumes/PhilsHome/ResearchBackups/history/YYYY-MM-DD_HH-MM-SS
+```
+
+Run the full backup without committing:
+
+```bash
+npm run backup
+```
+
+This updates the current mirror and creates a timestamped history snapshot.
+
+Create only a timestamped history snapshot:
+
+```bash
+npm run backup:history
+```
+
+Save to GitHub and then back up:
+
+```bash
+npm run save
+```
+
+`npm run save` stages all files, commits with the default message `Update Research app` when changes exist, pushes to the configured Git remote, then runs the full external backup. If there are no Git changes, it prints `No Git changes to commit.` and still runs the backup.
+
+The mirror backup uses `rsync --delete` so `/Volumes/PhilsHome/ResearchBackups/Research` exactly mirrors this repo. History snapshots use `rsync` without `--delete`, so each dated folder preserves the repo state at that moment.
+
+Both backup modes exclude:
+
+- `node_modules/`
+- `dist/`
+- `.git/`
+- `.DS_Store`
+- `*.tsbuildinfo`
+- `.vite/`
+- `.cache/`
+- npm/yarn debug logs
+
+History retention keeps the latest 20 snapshots by default and automatically deletes older snapshot folders. Deleted snapshot paths are printed during backup. Override the retention count for one run with:
+
+```bash
+RESEARCH_BACKUP_HISTORY_RETENTION=50 npm run backup
+```
+
+If `PhilsHome` is not mounted, the script prints `PhilsHome is not mounted. Skipping external backup.` and exits cleanly.
+
+If the drive is mounted but macOS permissions prevent creating the backup folder, the script prints a permissions warning and exits cleanly. Create `/Volumes/PhilsHome/ResearchBackups/Research` with write permission for your user, then rerun `npm run backup`.
+
+To restore from the current mirror, copy the mirrored files back into the repo folder:
+
+```bash
+rsync -av /Volumes/PhilsHome/ResearchBackups/Research/ /Users/tyler/Research/
+```
+
+To restore from a history snapshot, choose the dated folder and copy it back:
+
+```bash
+rsync -av /Volumes/PhilsHome/ResearchBackups/history/2026-05-09_19-42-11/ /Users/tyler/Research/
+```
+
 ## Exporting Research
 
 The export panel can write the current tree to:

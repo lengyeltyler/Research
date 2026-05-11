@@ -16,7 +16,20 @@
       "tags": [
         "country",
         "central-asia"
-      ]
+      ],
+      "treeId": "turkmenistan",
+      "clusterId": "turkmenistan",
+      "level": 0,
+      "importance": "root",
+      "layoutHint": "root",
+      "fixedPosition": true,
+      "connections": [],
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Turkmenistan is part of the Turkmenistan research tree.",
+      "detailedSummary": "Turkmenistan is part of the Turkmenistan research tree.",
+      "relatedQuestions": [],
+      "relatedAnswers": []
     },
     {
       "id": "turkmens",
@@ -43,7 +56,21 @@
           "confidence": "moderate",
           "disputeNotes": ""
         }
-      ]
+      ],
+      "treeId": "turkmenistan",
+      "clusterId": "turkmenistan",
+      "parentId": "turkmenistan",
+      "level": 1,
+      "importance": "major",
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "connections": [],
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Turkmens is part of the Turkmenistan research tree.",
+      "detailedSummary": "Turkmens is part of the Turkmenistan research tree.",
+      "relatedQuestions": [],
+      "relatedAnswers": []
     }
   ],
   "edges": [
@@ -55,5 +82,18 @@
       "label": "people / ethnic group",
       "notes": "Starter relationship for manually growing the tree."
     }
-  ]
+  ],
+  "metadata": {
+    "id": "turkmenistan",
+    "title": "Turkmenistan",
+    "themeColor": "purple",
+    "rootNodeId": "turkmenistan",
+    "preferredPosition": {
+      "x": 0.5,
+      "y": 0.22
+    },
+    "layoutRadius": 190,
+    "branchSpacing": 1,
+    "description": "Research tree for Turkmenistan and related historical, cultural, political, and geographic branches."
+  }
 }
