@@ -1,0 +1,82 @@
+[
+  {
+    "id": "britannica_niyazov",
+    "title": "Encyclopaedia Britannica — Saparmurad Niyazov",
+    "url": "https://www.britannica.com/biography/Saparmurad-Niyazov",
+    "authorPublisher": "Encyclopaedia Britannica",
+    "accessDate": "2026-05-11",
+    "type": "encyclopedia",
+    "reliability": "moderate",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "csce_turkmenistan_referendum",
+    "title": "CSCE — Report on Turkmenistan's Referendum on Independence",
+    "url": "https://www.csce.gov/publications/report-turkmenistans-referendum-independence/",
+    "authorPublisher": "Commission on Security and Cooperation in Europe",
+    "accessDate": "2026-05-11",
+    "type": "government",
+    "reliability": "strong",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "osce_odihr_public_associations",
+    "title": "OSCE/ODIHR Comments on Turkmenistan Public Associations Law",
+    "url": "https://unece.org/DAM/env/pp/compliance/CC-32/Inf_3_OSCE_ODIHR_Comments_Eng.pdf",
+    "authorPublisher": "OSCE/ODIHR",
+    "accessDate": "2026-05-11",
+    "type": "government",
+    "reliability": "strong",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "eurasianet_ngo_law_turkmenistan",
+    "title": "Eurasianet — New law on NGO activity in Turkmenistan greeted with caution",
+    "url": "https://eurasianet.org/new-law-on-ngo-activity-in-turkmenistan-greeted-with-caution",
+    "authorPublisher": "Eurasianet",
+    "accessDate": "2026-05-11",
+    "type": "article",
+    "reliability": "moderate",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "counterpart_org",
+    "title": "Counterpart International",
+    "url": "https://www.counterpart.org",
+    "authorPublisher": "Counterpart International",
+    "accessDate": "2026-05-11",
+    "type": "article",
+    "reliability": "moderate",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "counterpart_ar_2015",
+    "title": "Counterpart Annual Report 2015",
+    "url": "https://www.ngoadvisor.net/wp-content/uploads/2016/04/Counterpart-AR_15.pdf",
+    "authorPublisher": "Counterpart International",
+    "accessDate": "2026-05-11",
+    "type": "article",
+    "reliability": "moderate",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "bryant_profile",
+    "title": "National Portrait Gallery — The life of Bryant",
+    "url": "https://www.portrait.gov.au/magazines/59/the-life-of-bryant",
+    "authorPublisher": "National Portrait Gallery",
+    "accessDate": "2026-05-11",
+    "type": "article",
+    "reliability": "moderate",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  },
+  {
+    "id": "booktracker_ufo_fantastic_reality",
+    "title": "Booktracker — UFOs: Fantastic Reality listing",
+    "url": "http://booktracker.org/viewtopic.php?t=62529",
+    "authorPublisher": "Booktracker",
+    "accessDate": "2026-05-11",
+    "type": "forum",
+    "reliability": "weak",
+    "note": "Research source; assess context and provenance before treating as definitive."
+  }
+]

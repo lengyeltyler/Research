@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cia_reading_room",
+    "title": "CIA Reading Room",
+    "url": "https://www.cia.gov/readingroom/",
+    "authorPublisher": "Central Intelligence Agency",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "strong",
+    "note": "Use as archive/research lead; verify document provenance."
+  },
+  {
+    "id": "fbi_vault",
+    "title": "FBI Vault",
+    "url": "https://vault.fbi.gov",
+    "authorPublisher": "Federal Bureau of Investigation",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "strong",
+    "note": "Use as archive/research lead; verify document provenance."
+  },
+  {
+    "id": "national_archives",
+    "title": "U.S. National Archives",
+    "url": "https://www.archives.gov",
+    "authorPublisher": "National Archives",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "strong",
+    "note": "Use as archive/research lead; verify document provenance."
+  },
+  {
+    "id": "nicap",
+    "title": "NICAP",
+    "url": "https://www.nicap.org",
+    "authorPublisher": "NICAP",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "moderate",
+    "note": "Use as archive/research lead; verify document provenance."
+  },
+  {
+    "id": "black_vault",
+    "title": "The Black Vault",
+    "url": "https://www.theblackvault.com",
+    "authorPublisher": "The Black Vault",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "moderate",
+    "note": "Use as archive/research lead; verify document provenance."
+  }
+]

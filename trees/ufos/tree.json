@@ -1,9 +1,9 @@
 {
   "id": "ufos",
   "title": "UFOs",
-  "description": "Research tree for UFOs.",
+  "description": "Gateway tree for UFO-related research, bridged to evidence-aware Soviet ufology, humanoid archive, and mythology analysis clusters.",
   "createdAt": "2026-05-09T00:47:38.969Z",
-  "updatedAt": "2026-05-09T00:47:46.643Z",
+  "updatedAt": "2026-05-11T18:00:00.000Z",
   "nodes": [
     {
       "id": "ufos",
@@ -13,8 +13,84 @@
       "x": 160,
       "y": 220,
       "notePath": "nodes/ufos.md",
-      "tags": []
+      "tags": [
+        "ufo",
+        "evidence-aware",
+        "archive-gateway",
+        "analytical-inference"
+      ],
+      "treeId": "ufos",
+      "clusterId": "ufos",
+      "importance": "root",
+      "level": 0,
+      "layoutHint": "root",
+      "category": "Concept",
+      "shortSummary": "Gateway node for UFO research, explicitly separated from claims of proof and bridged to evidence-aware archive/history clusters.",
+      "detailedSummary": "This is no longer a placeholder. It is a top-level gateway to Soviet ufology/SETKA history, humanoid claim archives, and consciousness/mythology analysis. The UFO tree does not assert that aliens are confirmed; it routes research into source-critical clusters.",
+      "relatedQuestions": [
+        "What parts of UFO history are verified?",
+        "What parts are folklore, witness claims, or mythology development?"
+      ],
+      "relatedAnswers": [
+        "The research ledger separates verified history, state research, ufology compilations, witness claims, and analytical inference."
+      ],
+      "claims": [
+        {
+          "id": "ufos_gateway_claim_no_confirmation",
+          "text": "This gateway does not claim aliens are confirmed.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
     }
   ],
-  "edges": []
+  "edges": [],
+  "metadata": {
+    "id": "ufos",
+    "title": "UFOs",
+    "themeColor": "blue",
+    "rootNodeId": "ufos",
+    "preferredPosition": {
+      "x": 0.74,
+      "y": 0.22
+    },
+    "layoutRadius": 190,
+    "branchSpacing": 1,
+    "description": "Gateway tree for UFO-related research, bridged to evidence-aware Soviet ufology, humanoid archive, and mythology analysis clusters."
+  },
+  "bridgeEdges": [
+    {
+      "id": "bridge-ufos-setka",
+      "sourceTreeId": "ufos",
+      "sourceNodeId": "ufos",
+      "targetTreeId": "soviet-ufology-setka",
+      "targetNodeId": "soviet_anomalous_phenomena_research",
+      "label": "Soviet anomalous-phenomena research",
+      "type": "cross_tree",
+      "notes": "Gateway bridge to verified/contested Soviet UFO research history."
+    },
+    {
+      "id": "bridge-ufos-humanoid-archives",
+      "sourceTreeId": "ufos",
+      "sourceNodeId": "ufos",
+      "targetTreeId": "humanoid-encounter-archives",
+      "targetNodeId": "humanoid_encounter_archives",
+      "label": "humanoid claim archives",
+      "type": "cross_tree",
+      "notes": "Gateway bridge to claim archives handled as folklore/anthropology evidence."
+    },
+    {
+      "id": "bridge-ufos-consciousness-motifs",
+      "sourceTreeId": "ufos",
+      "sourceNodeId": "ufos",
+      "targetTreeId": "consciousness-mythology-archetypes",
+      "targetNodeId": "consciousness_mythology_archetype_evolution",
+      "label": "motif and archetype analysis",
+      "type": "cross_tree",
+      "notes": "Gateway bridge to consciousness/mythology analysis."
+    }
+  ]
 }

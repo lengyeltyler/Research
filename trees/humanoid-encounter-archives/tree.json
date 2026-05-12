@@ -1,0 +1,3130 @@
+{
+  "id": "humanoid-encounter-archives",
+  "title": "Humanoid Encounter Archives",
+  "description": "Evidence-aware archive analysis of humanoid encounter claims as folklore, anomalous-experience records, and mythology evolution material.",
+  "createdAt": "2026-05-11T12:00:00.000Z",
+  "updatedAt": "2026-05-11T18:00:00.000Z",
+  "qas": [
+    {
+      "id": "qa_humanoid_1",
+      "question": "Why do recurring motifs appear repeatedly across decades and cultures?",
+      "answer": "Humanoid encounter archives are useful when handled as catalogs of claims and motif data. They can support folklore and anthropology questions without being treated as verified evidence of external beings.",
+      "linkedNodeIds": [
+        "humanoid_encounter_archives",
+        "international_catalogue_of_humanoid_encounters",
+        "1914_archive",
+        "1990_archive"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_humanoid_2",
+      "question": "Are humanoid encounter archives useful as evidence, folklore databases, anthropological material, or all three?",
+      "answer": "Humanoid encounter archives are useful when handled as catalogs of claims and motif data. They can support folklore and anthropology questions without being treated as verified evidence of external beings.",
+      "linkedNodeIds": [
+        "humanoid_encounter_archives",
+        "international_catalogue_of_humanoid_encounters",
+        "1914_archive",
+        "1990_archive"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_humanoid_3",
+      "question": "What parts of Soviet UFO research are historically verified?",
+      "answer": "Humanoid encounter archives are useful when handled as catalogs of claims and motif data. They can support folklore and anthropology questions without being treated as verified evidence of external beings.",
+      "linkedNodeIds": [
+        "humanoid_encounter_archives",
+        "international_catalogue_of_humanoid_encounters",
+        "1914_archive",
+        "1990_archive"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_humanoid_1951_transition",
+      "question": "Why is 1951 important in the humanoid archive sequence?",
+      "answer": "1951 functions as a transition year where folklore, religious vision, contactee mythology, child examination, missing time, early gray-like beings, Nordic/beautiful-human entities, and Cold War ray/force-field anxieties overlap.",
+      "linkedNodeIds": [
+        "1951_archive",
+        "nordic_beautiful_human_entities",
+        "halidon_south_australia",
+        "british_columbia_child_abduction_examination_case",
+        "georgetown_guyana_landing_burned_circle",
+        "chirundu_zimbabwe_mermaid_folklore_case",
+        "mongolia_force_field_landing",
+        "maumee_ohio_orphanage_gray_like_beings",
+        "moscow_loo_entity",
+        "casteil_france_mountain_stranger_topographer",
+        "korea_war_object_ray_illness_case",
+        "south_africa_gravity_craft_engineer_case",
+        "manila_invisible_attacker_case",
+        "ukiah_nane_moon_civilization_case"
+      ],
+      "dateAdded": "2026-05-11"
+    }
+  ],
+  "nodes": [
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "root",
+      "level": 0,
+      "layoutHint": "root",
+      "fixedPosition": true,
+      "id": "humanoid_encounter_archives",
+      "title": "Humanoid Encounter Archives",
+      "type": "root",
+      "status": "researching",
+      "x": 140,
+      "y": 180,
+      "notePath": "nodes/humanoid_encounter_archives.md",
+      "tags": [
+        "ufology-compilation",
+        "analytical-inference"
+      ],
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "A research cluster for humanoid encounter catalogues as claim archives, folklore databases, mythology-evolution material, and anthropological datasets.",
+      "detailedSummary": "The archive is not treated as proof of aliens. It preserves reported claims, recurring motifs, chronology, and cultural transformations: folklore beings, religious visions, contactee entities, robotic figures, abduction structures, and post-Soviet paranormal narratives.",
+      "relatedQuestions": [
+        "Are humanoid encounter archives useful as evidence, folklore databases, anthropological material, or all three?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "Humanoid archives are useful as claim archives and motif datasets. They are not automatically verified evidence of external beings."
+      ],
+      "connections": [],
+      "claims": [],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "albert_rosales",
+      "title": "Albert Rosales",
+      "type": "person",
+      "status": "researching",
+      "x": 400,
+      "y": 180,
+      "notePath": "nodes/albert_rosales.md",
+      "tags": [
+        "ufology-compilation"
+      ],
+      "parentId": "humanoid_encounter_archives",
+      "category": "Person",
+      "dateRange": "",
+      "shortSummary": "Compiler associated with the International Catalogue of Humanoid Encounters.",
+      "detailedSummary": "Compiler associated with the International Catalogue of Humanoid Encounters.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "international_catalogue_of_humanoid_encounters",
+      "title": "International Catalogue of Humanoid Encounters",
+      "type": "source",
+      "status": "researching",
+      "x": 400,
+      "y": 250,
+      "notePath": "nodes/international_catalogue_of_humanoid_encounters.md",
+      "tags": [
+        "ufology-compilation"
+      ],
+      "parentId": "humanoid_encounter_archives",
+      "category": "Text/scripture",
+      "dateRange": "",
+      "shortSummary": "A compilation of reports, not a verified evidence database.",
+      "detailedSummary": "A compilation of reports, not a verified evidence database.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "1914_archive",
+      "title": "1914 archive",
+      "type": "timeline",
+      "status": "researching",
+      "x": 400,
+      "y": 320,
+      "notePath": "nodes/1914_archive.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim"
+      ],
+      "parentId": "humanoid_encounter_archives",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Early humanoid claims showing folklore and proto-technological reinterpretation motifs.",
+      "detailedSummary": "1914 material strongly resembles folklore, little-people traditions, mystical visitation, and proto-technological interpretation. It is a high-value folklore-to-technology transition set.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "1939_archive",
+      "title": "1939 archive",
+      "type": "timeline",
+      "status": "researching",
+      "x": 400,
+      "y": 390,
+      "notePath": "nodes/1939_archive.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim"
+      ],
+      "parentId": "humanoid_encounter_archives",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Pre-Roswell claims containing robotic, telepathic, and abduction-like motifs.",
+      "detailedSummary": "1939 shows pre-Roswell technological motifs: robots, telepathy, upward disappearance, hidden doors, abduction structure, and proto-Men-in-Black/government-secret mythology.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "1958_archive",
+      "title": "1958 archive",
+      "type": "timeline",
+      "status": "researching",
+      "x": 400,
+      "y": 460,
+      "notePath": "nodes/1958_archive.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim"
+      ],
+      "parentId": "humanoid_encounter_archives",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Late-1950s reports where modern abduction mythology becomes more stable.",
+      "detailedSummary": "1958 shows modern abduction/contactee mythology stabilizing: telepathy, examinations, missing time, hybrid or reproductive themes, cosmic spirituality, and Cold War nuclear anxiety.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "1990_archive",
+      "title": "1990 archive",
+      "type": "timeline",
+      "status": "researching",
+      "x": 400,
+      "y": 530,
+      "notePath": "nodes/1990_archive.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim"
+      ],
+      "parentId": "humanoid_encounter_archives",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Soviet/CIS paranormal explosion, biological-robot motifs, and psychological-distress cases.",
+      "detailedSummary": "1990 emphasizes post-Soviet/CIS paranormal explosion: biological robots, human mimicry, altered states, social instability, and cases that may be sincere but psychologically mediated.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "smolensk_disappearing_children",
+      "title": "Smolensk disappearing children",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 180,
+      "notePath": "nodes/smolensk_disappearing_children.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A disappearance motif involving children, best read as folklore-adjacent material rather than verified contact evidence.",
+      "detailedSummary": "This case belongs to the old pattern of children entering forbidden or liminal spaces and vanishing. In the archive, its value is not evidentiary proof of nonhuman actors but motif continuity: disappearance, vulnerability, and the little-people/fairy-adjacent structure later reframed by UFO catalogues.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "smolensk_disappearing_children_claim_archive",
+          "text": "A disappearance motif involving children, best read as folklore-adjacent material rather than verified contact evidence.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "smolensk_disappearing_children_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "pawtucket_singing_humanoids",
+      "title": "Pawtucket singing humanoids",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 250,
+      "notePath": "nodes/pawtucket_singing_humanoids.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A singing humanoid report showing musical/enchanted-being motifs more than technological UFO structure.",
+      "detailedSummary": "The strongest analytical value is the overlap with older visitation folklore: sound, uncanny performers, strange figures, and witness disturbance. It illustrates how pre-saucer humanoid material often looks closer to folklore than machinery.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "pawtucket_singing_humanoids_claim_archive",
+          "text": "A singing humanoid report showing musical/enchanted-being motifs more than technological UFO structure.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "pawtucket_singing_humanoids_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "farmersville_green_humanoid",
+      "title": "Farmersville little green man",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 320,
+      "notePath": "nodes/farmersville_green_humanoid.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A green humanoid entry useful for tracking the early life of the 'little green man' motif.",
+      "detailedSummary": "The case is valuable as a motif marker. It should not be promoted as a verified entity encounter; it is a reported claim that shows how color, small stature, and otherness become durable narrative elements.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "farmersville_green_humanoid_claim_archive",
+          "text": "A green humanoid entry useful for tracking the early life of the 'little green man' motif.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "farmersville_green_humanoid_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "hamburg_cigar_craft",
+      "title": "Hamburg cigar craft",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 390,
+      "notePath": "nodes/hamburg_cigar_craft.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A cigar-shaped craft report showing early technological reinterpretation before the flying-saucer era.",
+      "detailedSummary": "This entry is important because it moves away from pure fairy/visitor folklore toward machine-like aerial framing. The cigar form later becomes common in airship and UFO lore.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "hamburg_cigar_craft_claim_archive",
+          "text": "A cigar-shaped craft report showing early technological reinterpretation before the flying-saucer era.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "hamburg_cigar_craft_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "finland_grandmother_sky_ship",
+      "title": "Alastaro Finland grandmother sky-ship case",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 460,
+      "notePath": "nodes/finland_grandmother_sky_ship.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A Finnish sky-ship visitation story that mixes family memory, folklore, and early technological imagery.",
+      "detailedSummary": "This case is strongest as a folklore-to-technology bridge: a grandmother figure, sky vehicle, and wonder narrative rather than a clean modern UFO event.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "finland_grandmother_sky_ship_claim_archive",
+          "text": "A Finnish sky-ship visitation story that mixes family memory, folklore, and early technological imagery.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "finland_grandmother_sky_ship_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "spike_island_yellow_watcher",
+      "title": "Spike Island yellow watcher",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 530,
+      "notePath": "nodes/spike_island_yellow_watcher.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A watcher figure with unusual coloration, useful for tracking surveillance and uncanny-presence motifs.",
+      "detailedSummary": "The 'watcher' element matters more than literal interpretation. It connects to later Men in Black, silent observers, and liminal humanoid reports.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "spike_island_yellow_watcher_claim_archive",
+          "text": "A watcher figure with unusual coloration, useful for tracking surveillance and uncanny-presence motifs.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "spike_island_yellow_watcher_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "georgian_bay_water_collection_case",
+      "title": "Georgian Bay water-collection case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 600,
+      "notePath": "nodes/georgian_bay_water_collection_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A water-collection motif that anticipates later UFO cases involving sampling behavior.",
+      "detailedSummary": "This report is useful because it frames entities as task-performing collectors. The motif later appears in technological terms: sampling, surveys, and biological/environmental collection.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "georgian_bay_water_collection_case_claim_archive",
+          "text": "A water-collection motif that anticipates later UFO cases involving sampling behavior.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "georgian_bay_water_collection_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "cochabamba_proto_abduction",
+      "title": "Cochabamba proto-abduction",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 670,
+      "notePath": "nodes/cochabamba_proto_abduction.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1914_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A proto-abduction structure before the standardized modern abduction narrative.",
+      "detailedSummary": "This case is useful because it shows coercive encounter structure before the later Betty and Barney Hill-era template. It should remain a witness-claim archive entry, not external-event proof.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "cochabamba_proto_abduction_claim_archive",
+          "text": "A proto-abduction structure before the standardized modern abduction narrative.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "cochabamba_proto_abduction_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "cordell_hull_sub_basement_story",
+      "title": "Cordell Hull Capitol sub-basement story",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 180,
+      "notePath": "nodes/cordell_hull_sub_basement_story.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "weakly-sourced-claim"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A culturally influential but weakly sourced story about bodies or entities allegedly kept under the U.S. Capitol.",
+      "detailedSummary": "This is explicitly weak/unverified. Its value is mythological: it anticipates later crashed-saucer, hidden-body, and government-coverup structures. It should never be used as verified evidence without stronger primary documentation.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "cordell_hull_sub_basement_story_claim_archive",
+          "text": "A culturally influential but weakly sourced story about bodies or entities allegedly kept under the U.S. Capitol.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "cordell_hull_sub_basement_story_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Weakly sourced claim"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "spain_upward_disappearance_case",
+      "title": "Spain upward-disappearance case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 250,
+      "notePath": "nodes/spain_upward_disappearance_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A disappearance/upward-removal motif useful for tracking abduction-like structures before Roswell.",
+      "detailedSummary": "The case fits liminal removal narratives: a person or presence is taken upward or vanishes into the sky. The analytical value is pattern history, not confirmation.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "spain_upward_disappearance_case_claim_archive",
+          "text": "A disappearance/upward-removal motif useful for tracking abduction-like structures before Roswell.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "spain_upward_disappearance_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "finland_robot_worker_case",
+      "title": "Finland robot-worker case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 320,
+      "notePath": "nodes/finland_robot_worker_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A robot-worker motif showing mechanical humanoid imagery before the postwar saucer boom.",
+      "detailedSummary": "This case is important because robotic beings appear before Roswell-era UFO culture, showing that mechanized humanoids were already available as narrative material.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "finland_robot_worker_case_claim_archive",
+          "text": "A robot-worker motif showing mechanical humanoid imagery before the postwar saucer boom.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "finland_robot_worker_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "alabama_psychic_other_world_woman",
+      "title": "Alabama psychic other-world woman",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 390,
+      "notePath": "nodes/alabama_psychic_other_world_woman.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A psychic or other-world woman narrative showing occult, visionary, and contact motifs.",
+      "detailedSummary": "The report sits between spiritualism, psychic experience, and contactee narrative. It is useful for studying how feminine otherworldly figures later overlap with space-being stories.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "alabama_psychic_other_world_woman_claim_archive",
+          "text": "A psychic or other-world woman narrative showing occult, visionary, and contact motifs.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "alabama_psychic_other_world_woman_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "california_radiant_woman_marian_overlap",
+      "title": "California radiant woman / Marian overlap",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 460,
+      "notePath": "nodes/california_radiant_woman_marian_overlap.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A radiant-woman report that overlaps with Marian apparition and religious-vision imagery.",
+      "detailedSummary": "This case belongs in the religion/folklore overlap zone: luminous woman, visitation, awe, and moral/spiritual framing. It should not be flattened into a spacecraft case.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "california_radiant_woman_marian_overlap_claim_archive",
+          "text": "A radiant-woman report that overlaps with Marian apparition and religious-vision imagery.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "california_radiant_woman_marian_overlap_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "delaware_river_hidden_door",
+      "title": "Delaware River hidden door",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 530,
+      "notePath": "nodes/delaware_river_hidden_door.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A hidden-door motif suggesting portals, liminal entrances, and concealed worlds.",
+      "detailedSummary": "This entry is valuable because hidden entrances and thresholds are older than modern UFOs. It can be compared with fairy mounds, secret doors, underground worlds, and later portal language.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "delaware_river_hidden_door_claim_archive",
+          "text": "A hidden-door motif suggesting portals, liminal entrances, and concealed worlds.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "delaware_river_hidden_door_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "greek_mushroom_craft",
+      "title": "Greek mushroom craft",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 600,
+      "notePath": "nodes/greek_mushroom_craft.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A mushroom-shaped craft motif showing early odd-vehicle imagery.",
+      "detailedSummary": "The shape matters as imagery. It points to a transitional vocabulary in which strange aerial/landed objects are named through familiar analogies.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "greek_mushroom_craft_claim_archive",
+          "text": "A mushroom-shaped craft motif showing early odd-vehicle imagery.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "greek_mushroom_craft_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "brazil_prospector_abduction",
+      "title": "Brazil prospector abduction",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 670,
+      "notePath": "nodes/brazil_prospector_abduction.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1939_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A reported abduction-like case involving a prospector, useful as a pre-Roswell coercive encounter motif.",
+      "detailedSummary": "The case is useful for tracking isolation, frontier setting, and coercive removal. It should remain a witness claim pending source criticism.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "brazil_prospector_abduction_claim_archive",
+          "text": "A reported abduction-like case involving a prospector, useful as a pre-Roswell coercive encounter motif.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "brazil_prospector_abduction_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "pre_hill_gray_like_abduction",
+      "title": "Pre-Hill gray-like abduction",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 180,
+      "notePath": "nodes/pre_hill_gray_like_abduction.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A pre-Betty-and-Barney-Hill case with gray-like or examination motifs.",
+      "detailedSummary": "This matters because it suggests some later abduction motifs were circulating before the most famous 1960s template. Still, it remains a witness/ufology compilation entry.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "pre_hill_gray_like_abduction_claim_archive",
+          "text": "A pre-Betty-and-Barney-Hill case with gray-like or examination motifs.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "pre_hill_gray_like_abduction_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "vietnam_retrieval_mythology",
+      "title": "Vietnam retrieval mythology",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 250,
+      "notePath": "nodes/vietnam_retrieval_mythology.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference",
+        "weakly-sourced-claim"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A weak/unverified retrieval-style story from the Vietnam context.",
+      "detailedSummary": "This should be labeled weak. Its value is in showing how military retrieval mythology forms around conflict zones, not in proving recovered craft or bodies.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "vietnam_retrieval_mythology_claim_archive",
+          "text": "A weak/unverified retrieval-style story from the Vietnam context.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "vietnam_retrieval_mythology_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Weakly sourced claim"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "argentina_subway_humanoid",
+      "title": "Argentina subway humanoid",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 320,
+      "notePath": "nodes/argentina_subway_humanoid.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "An urban underground humanoid report with liminal transit imagery.",
+      "detailedSummary": "The subway setting makes this a modern hidden-world case: underground space, anonymous movement, and uncanny figures inside infrastructure.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "argentina_subway_humanoid_claim_archive",
+          "text": "An urban underground humanoid report with liminal transit imagery.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "argentina_subway_humanoid_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "phoenix_monkey_entities",
+      "title": "Phoenix monkey-like entities",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 390,
+      "notePath": "nodes/phoenix_monkey_entities.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A report involving monkey-like entities, useful for nonstandard entity taxonomy.",
+      "detailedSummary": "This is valuable as a reminder that archives are not only 'grays' and Nordics. Reports preserve unstable entity categories shaped by culture, fear, animals, and misperception.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "phoenix_monkey_entities_claim_archive",
+          "text": "A report involving monkey-like entities, useful for nonstandard entity taxonomy.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "phoenix_monkey_entities_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "cynthia_appleton",
+      "title": "Cynthia Appleton",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 460,
+      "notePath": "nodes/cynthia_appleton.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A contactee-style case involving cosmic instruction and domestic visitation.",
+      "detailedSummary": "Appleton-type narratives matter because they blend home intrusion, cosmic teaching, spirituality, and contactee-era themes.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "cynthia_appleton_claim_archive",
+          "text": "A contactee-style case involving cosmic instruction and domestic visitation.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "cynthia_appleton_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "akart_narrative",
+      "title": "Akart civilization narrative",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 530,
+      "notePath": "nodes/akart_narrative.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A civilization/contactee narrative linked to cosmic-spiritual themes.",
+      "detailedSummary": "The Akart material is better handled as contactee mythology than proof. It illustrates how named civilizations and cosmic instruction became common in the period.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "akart_narrative_claim_archive",
+          "text": "A civilization/contactee narrative linked to cosmic-spiritual themes.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "akart_narrative_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "texas_repair_operation_case",
+      "title": "Texas repair-operation case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 600,
+      "notePath": "nodes/texas_repair_operation_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A repair-operation motif in which occupants appear to fix or service a craft.",
+      "detailedSummary": "Repair cases frame entities as technicians. This makes them useful for studying how UFO occupants are imagined as workers inside a technological system.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "texas_repair_operation_case_claim_archive",
+          "text": "A repair-operation motif in which occupants appear to fix or service a craft.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "texas_repair_operation_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "robert_monroe_overlap",
+      "title": "Robert Monroe consciousness-overlap case",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 670,
+      "notePath": "nodes/robert_monroe_overlap.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1958_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A consciousness/altered-state overlap relevant to out-of-body and anomalous-experience interpretation.",
+      "detailedSummary": "Monroe-adjacent material belongs in the boundary between UFO reports, altered states, and consciousness studies. It should not be treated as ordinary physical evidence.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "robert_monroe_overlap_claim_archive",
+          "text": "A consciousness/altered-state overlap relevant to out-of-body and anomalous-experience interpretation.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "robert_monroe_overlap_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "moscow_biological_robot_case",
+      "title": "Moscow biological robot case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 180,
+      "notePath": "nodes/moscow_biological_robot_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1990_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A biological-robot report from the Soviet/CIS paranormal explosion.",
+      "detailedSummary": "The key motif is ambiguous personhood: something that looks biological but acts mechanical or programmed. This is especially important in late Soviet/post-Soviet reports.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "moscow_biological_robot_case_claim_archive",
+          "text": "A biological-robot report from the Soviet/CIS paranormal explosion.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "moscow_biological_robot_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "reutov_biological_robot_hellenic_beings",
+      "title": "Reutov biological robot / Hellenic beings",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 250,
+      "notePath": "nodes/reutov_biological_robot_hellenic_beings.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1990_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A report combining biological robot language with classical/Hellenic imagery.",
+      "detailedSummary": "The mixture of high-tech biology and ancient/classical imagery is analytically important: modern and archaic symbols coexist rather than replacing each other.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "reutov_biological_robot_hellenic_beings_claim_archive",
+          "text": "A report combining biological robot language with classical/Hellenic imagery.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "reutov_biological_robot_hellenic_beings_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "tashkent_humanoid",
+      "title": "Tashkent humanoid",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 320,
+      "notePath": "nodes/tashkent_humanoid.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1990_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A Central Asian humanoid report useful for regional comparison, but not verified external evidence.",
+      "detailedSummary": "This case should be kept as regional archive material. Its value is comparative: how Soviet/Central Asian reports encode locality, uncertainty, and post-Soviet paranormal atmosphere.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "tashkent_humanoid_claim_archive",
+          "text": "A Central Asian humanoid report useful for regional comparison, but not verified external evidence.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "tashkent_humanoid_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "mary_turkmenistan_case",
+      "title": "Mary, Turkmenistan case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 390,
+      "notePath": "nodes/mary_turkmenistan_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference",
+        "weakly-sourced-claim"
+      ],
+      "parentId": "1990_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A Turkmenistan humanoid claim best treated as likely psychological distress or weak external-event evidence.",
+      "detailedSummary": "This is not a strong evidence case. The ledger preserves it to show how local humanoid claims enter archives, while emphasizing psychological distress/psychosis as a more plausible interpretive frame than a confirmed external encounter.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "mary_turkmenistan_case_claim_archive",
+          "text": "A Turkmenistan humanoid claim best treated as likely psychological distress or weak external-event evidence.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "mary_turkmenistan_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Weakly sourced claim"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "edinburgh_pizza_parlor_case",
+      "title": "Edinburgh pizza-parlor human-mimicry case",
+      "type": "claim",
+      "status": "researching",
+      "x": 660,
+      "y": 460,
+      "notePath": "nodes/edinburgh_pizza_parlor_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1990_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A human-mimicry case focused on uncanny social behavior rather than proof of aliens.",
+      "detailedSummary": "The useful question is why violated social patterns disturb witnesses: wrong affect, wrong timing, mimicry, and almost-human behavior. It connects to changelings, Men in Black, doppelgangers, and android/AI anxiety.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "edinburgh_pizza_parlor_case_claim_archive",
+          "text": "A human-mimicry case focused on uncanny social behavior rather than proof of aliens.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "edinburgh_pizza_parlor_case_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "id": "soviet_cis_paranormal_explosion",
+      "title": "Soviet/CIS paranormal explosion",
+      "type": "topic",
+      "status": "researching",
+      "x": 660,
+      "y": 530,
+      "notePath": "nodes/soviet_cis_paranormal_explosion.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "1990_archive",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "The early 1990s environment in which media, instability, archive openings, and paranormal claims surged.",
+      "detailedSummary": "This context matters because reports do not emerge in a vacuum. Political collapse, weak institutions, new media markets, spiritual searching, and rumor networks all shaped the archive.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "This case is preserved as motif evidence and a witness/ufology-archive claim, not as confirmed external-event proof."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "soviet_cis_paranormal_explosion_claim_archive",
+          "text": "The early 1990s environment in which media, instability, archive openings, and paranormal claims surged.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        },
+        {
+          "id": "soviet_cis_paranormal_explosion_claim_caution",
+          "text": "This entry should not be treated as verified proof of aliens or recovered nonhuman beings.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "1951_archive",
+      "title": "1951 archive",
+      "type": "timeline",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "humanoid_encounter_archives",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "x": 400,
+      "y": 600,
+      "notePath": "nodes/1951_archive.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Transition-year archive where folklore, religious vision, contactee mythology, missing time, child examination, and early gray/Nordic motifs overlap.",
+      "detailedSummary": "1951 is a transition year where folklore, religious visions, contactee mythology, missing time, child examination, and early gray/Nordic motifs overlap. It shows older supernatural patterns being translated into technical, extraterrestrial, or contactee-era language.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": [
+        {
+          "id": "1951_archive_claim_1",
+          "text": "Transition-year archive where folklore, religious vision, contactee mythology, missing time, child examination, and early gray/Nordic motifs overlap.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim; Analytical inference",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "id": "nordic_beautiful_human_entities",
+      "title": "Nordic / beautiful-human entities",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/nordic_beautiful_human_entities.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "Beautiful human-like entities mark the early contactee/Nordic stream of UFO mythology.",
+      "detailedSummary": "This motif differs sharply from later gray imagery. It reflects attractiveness, spiritual elevation, and contactee-era hopes projected onto human-like visitors.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "nordic_beautiful_human_entities_claim_archive",
+          "text": "Beautiful human-like entities mark the early contactee/Nordic stream of UFO mythology.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "halidon_south_australia",
+      "title": "Halidon, South Australia",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/halidon_south_australia.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A 1951 Australia-linked case useful as a regional early-contact motif.",
+      "detailedSummary": "The case is preserved as a claim archive entry and should be used for motif comparison, not proof.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "halidon_south_australia_claim_archive",
+          "text": "A 1951 Australia-linked case useful as a regional early-contact motif.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "british_columbia_child_abduction_examination_case",
+      "title": "British Columbia child-abduction/examination case",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/british_columbia_child_abduction_examination_case.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A child-focused abduction/examination motif before the modern abduction template fully stabilizes.",
+      "detailedSummary": "This is analytically important because vulnerability, child witnesses, examination, and missing-time-like structures appear before later standardized abduction accounts.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "british_columbia_child_abduction_examination_case_claim_archive",
+          "text": "A child-focused abduction/examination motif before the modern abduction template fully stabilizes.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "georgetown_guyana_landing_with_burned_circle",
+      "title": "Georgetown Guyana landing with burned circle",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/georgetown_guyana_landing_with_burned_circle.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A landing-trace motif involving a burned circle.",
+      "detailedSummary": "Landing traces often feel more physical than entity reports, but still require source criticism. Here the value is tracking trace narratives.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "georgetown_guyana_landing_with_burned_circle_claim_archive",
+          "text": "A landing-trace motif involving a burned circle.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "chirundu_zimbabwe_mermaid_folklore_case",
+      "title": "Chirundu Zimbabwe mermaid/folklore case",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/chirundu_zimbabwe_mermaid_folklore_case.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A mermaid/folklore-linked case showing that not all humanoid material is technological.",
+      "detailedSummary": "This preserves the folklore side of the archive and resists forcing every report into a spacecraft frame.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "chirundu_zimbabwe_mermaid_folklore_case_claim_archive",
+          "text": "A mermaid/folklore-linked case showing that not all humanoid material is technological.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "mongolia_force_field_landing",
+      "title": "Mongolia force-field landing",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/mongolia_force_field_landing.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A force-field landing motif connecting invisible barriers and technological imagination.",
+      "detailedSummary": "Force-field language reflects Cold War and science-fiction vocabulary entering encounter narratives.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "mongolia_force_field_landing_claim_archive",
+          "text": "A force-field landing motif connecting invisible barriers and technological imagination.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "maumee_ohio_orphanage_gray_like_beings",
+      "title": "Maumee Ohio orphanage gray-like beings",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/maumee_ohio_orphanage_gray_like_beings.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "An orphanage gray-like beings report useful for pre-Hill gray motif tracking.",
+      "detailedSummary": "Child institutional settings intensify vulnerability and memory issues. This is a claim archive entry, not verified evidence.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "maumee_ohio_orphanage_gray_like_beings_claim_archive",
+          "text": "An orphanage gray-like beings report useful for pre-Hill gray motif tracking.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "moscow_loo_entity",
+      "title": "Moscow 'Loo' entity",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/moscow_loo_entity.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A Moscow entity report with unusual naming and postwar Soviet context.",
+      "detailedSummary": "The case is useful as Soviet-region motif material, especially because entity labels often preserve local or translator-mediated interpretation.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "moscow_loo_entity_claim_archive",
+          "text": "A Moscow entity report with unusual naming and postwar Soviet context.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "casteil_france_mountain_stranger_topographer",
+      "title": "Casteil France mountain stranger/topographer",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/casteil_france_mountain_stranger_topographer.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A mountain stranger/topographer motif where the entity resembles a surveyor or technical worker.",
+      "detailedSummary": "Topographer imagery frames the stranger as a mapper or measurer, connecting folklore stranger motifs to technical modernity.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "casteil_france_mountain_stranger_topographer_claim_archive",
+          "text": "A mountain stranger/topographer motif where the entity resembles a surveyor or technical worker.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "korea_war_object_ray_illness_case",
+      "title": "Korea War object/ray illness case",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/korea_war_object_ray_illness_case.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A Korean War object/ray illness case connecting UFO reports to wartime fear and bodily harm.",
+      "detailedSummary": "The key context is war: weapons anxiety, radiation/ray imagery, illness, and military uncertainty.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "korea_war_object_ray_illness_case_claim_archive",
+          "text": "A Korean War object/ray illness case connecting UFO reports to wartime fear and bodily harm.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "south_africa_gravity_craft_engineer_case",
+      "title": "South Africa gravity-craft engineer case",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/south_africa_gravity_craft_engineer_case.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A gravity-craft/engineer narrative showing technical explanation motifs.",
+      "detailedSummary": "Engineer figures and anti-gravity language show how witnesses or retellings interpret strangeness through available technical imagination.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "south_africa_gravity_craft_engineer_case_claim_archive",
+          "text": "A gravity-craft/engineer narrative showing technical explanation motifs.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "manila_invisible_attacker_case",
+      "title": "Manila invisible attacker case",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/manila_invisible_attacker_case.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "An invisible-attacker case at the boundary of haunting, assault narrative, and humanoid archive.",
+      "detailedSummary": "This case should be handled carefully as anomalous-experience folklore rather than a clean UFO entity report.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "manila_invisible_attacker_case_claim_archive",
+          "text": "An invisible-attacker case at the boundary of haunting, assault narrative, and humanoid archive.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    },
+    {
+      "id": "ukiah_nane_moon_civilization_case",
+      "title": "Ukiah 'Nane' moon-civilization case",
+      "type": "claim",
+      "status": "researching",
+      "treeId": "humanoid-encounter-archives",
+      "clusterId": "humanoid-encounter-archives",
+      "parentId": "1951_archive",
+      "importance": "detail",
+      "level": 2,
+      "layoutHint": "leaf",
+      "fixedPosition": true,
+      "x": 660,
+      "y": 1580,
+      "notePath": "nodes/ukiah_nane_moon_civilization_case.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A moon-civilization/contact narrative showing early cosmic-contact mythology.",
+      "detailedSummary": "Named civilizations and moon origins belong to contactee mythology. The value is studying cosmological storytelling, not verifying lunar inhabitants.",
+      "relatedQuestions": [
+        "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+        "Why do recurring motifs appear repeatedly across decades and cultures?"
+      ],
+      "relatedAnswers": [
+        "1951 is treated as a transitional motif year where folklore, contactee spirituality, early gray/Nordic imagery, and wartime anxieties overlap."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "ukiah_nane_moon_civilization_case_claim_archive",
+          "text": "A moon-civilization/contact narrative showing early cosmic-contact mythology.",
+          "state": "partially_supported",
+          "evidence": "Ufology compilation; Witness claim",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Witness claim",
+        "Analytical inference"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-humanoid_encounter_archives-albert_rosales",
+      "source": "humanoid_encounter_archives",
+      "target": "albert_rosales",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-humanoid_encounter_archives-international_catalogue_of_humanoid_encounters",
+      "source": "humanoid_encounter_archives",
+      "target": "international_catalogue_of_humanoid_encounters",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-humanoid_encounter_archives-1914_archive",
+      "source": "humanoid_encounter_archives",
+      "target": "1914_archive",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-humanoid_encounter_archives-1939_archive",
+      "source": "humanoid_encounter_archives",
+      "target": "1939_archive",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-humanoid_encounter_archives-1958_archive",
+      "source": "humanoid_encounter_archives",
+      "target": "1958_archive",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-humanoid_encounter_archives-1990_archive",
+      "source": "humanoid_encounter_archives",
+      "target": "1990_archive",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-smolensk_disappearing_children",
+      "source": "1914_archive",
+      "target": "smolensk_disappearing_children",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-pawtucket_singing_humanoids",
+      "source": "1914_archive",
+      "target": "pawtucket_singing_humanoids",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-farmersville_green_humanoid",
+      "source": "1914_archive",
+      "target": "farmersville_green_humanoid",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-hamburg_cigar_craft",
+      "source": "1914_archive",
+      "target": "hamburg_cigar_craft",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-finland_grandmother_sky_ship",
+      "source": "1914_archive",
+      "target": "finland_grandmother_sky_ship",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-spike_island_yellow_watcher",
+      "source": "1914_archive",
+      "target": "spike_island_yellow_watcher",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-georgian_bay_water_collection_case",
+      "source": "1914_archive",
+      "target": "georgian_bay_water_collection_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1914_archive-cochabamba_proto_abduction",
+      "source": "1914_archive",
+      "target": "cochabamba_proto_abduction",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-cordell_hull_sub_basement_story",
+      "source": "1939_archive",
+      "target": "cordell_hull_sub_basement_story",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-spain_upward_disappearance_case",
+      "source": "1939_archive",
+      "target": "spain_upward_disappearance_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-finland_robot_worker_case",
+      "source": "1939_archive",
+      "target": "finland_robot_worker_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-alabama_psychic_other_world_woman",
+      "source": "1939_archive",
+      "target": "alabama_psychic_other_world_woman",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-california_radiant_woman_marian_overlap",
+      "source": "1939_archive",
+      "target": "california_radiant_woman_marian_overlap",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-delaware_river_hidden_door",
+      "source": "1939_archive",
+      "target": "delaware_river_hidden_door",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-greek_mushroom_craft",
+      "source": "1939_archive",
+      "target": "greek_mushroom_craft",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1939_archive-brazil_prospector_abduction",
+      "source": "1939_archive",
+      "target": "brazil_prospector_abduction",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-pre_hill_gray_like_abduction",
+      "source": "1958_archive",
+      "target": "pre_hill_gray_like_abduction",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-vietnam_retrieval_mythology",
+      "source": "1958_archive",
+      "target": "vietnam_retrieval_mythology",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-argentina_subway_humanoid",
+      "source": "1958_archive",
+      "target": "argentina_subway_humanoid",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-phoenix_monkey_entities",
+      "source": "1958_archive",
+      "target": "phoenix_monkey_entities",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-cynthia_appleton",
+      "source": "1958_archive",
+      "target": "cynthia_appleton",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-akart_narrative",
+      "source": "1958_archive",
+      "target": "akart_narrative",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-texas_repair_operation_case",
+      "source": "1958_archive",
+      "target": "texas_repair_operation_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1958_archive-robert_monroe_overlap",
+      "source": "1958_archive",
+      "target": "robert_monroe_overlap",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1990_archive-moscow_biological_robot_case",
+      "source": "1990_archive",
+      "target": "moscow_biological_robot_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1990_archive-reutov_biological_robot_hellenic_beings",
+      "source": "1990_archive",
+      "target": "reutov_biological_robot_hellenic_beings",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1990_archive-tashkent_humanoid",
+      "source": "1990_archive",
+      "target": "tashkent_humanoid",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1990_archive-mary_turkmenistan_case",
+      "source": "1990_archive",
+      "target": "mary_turkmenistan_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1990_archive-edinburgh_pizza_parlor_case",
+      "source": "1990_archive",
+      "target": "edinburgh_pizza_parlor_case",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-1990_archive-soviet_cis_paranormal_explosion",
+      "source": "1990_archive",
+      "target": "soviet_cis_paranormal_explosion",
+      "label": "archive branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-humanoid_encounter_archives-1951_archive",
+      "source": "humanoid_encounter_archives",
+      "target": "1951_archive",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-nordic_beautiful_human_entities",
+      "source": "1951_archive",
+      "target": "nordic_beautiful_human_entities",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-halidon_south_australia",
+      "source": "1951_archive",
+      "target": "halidon_south_australia",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-british_columbia_child_abduction_examination_case",
+      "source": "1951_archive",
+      "target": "british_columbia_child_abduction_examination_case",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-georgetown_guyana_landing_with_burned_circle",
+      "source": "1951_archive",
+      "target": "georgetown_guyana_landing_with_burned_circle",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-chirundu_zimbabwe_mermaid_folklore_case",
+      "source": "1951_archive",
+      "target": "chirundu_zimbabwe_mermaid_folklore_case",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-mongolia_force_field_landing",
+      "source": "1951_archive",
+      "target": "mongolia_force_field_landing",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-maumee_ohio_orphanage_gray_like_beings",
+      "source": "1951_archive",
+      "target": "maumee_ohio_orphanage_gray_like_beings",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-moscow_loo_entity",
+      "source": "1951_archive",
+      "target": "moscow_loo_entity",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-casteil_france_mountain_stranger_topographer",
+      "source": "1951_archive",
+      "target": "casteil_france_mountain_stranger_topographer",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-korea_war_object_ray_illness_case",
+      "source": "1951_archive",
+      "target": "korea_war_object_ray_illness_case",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-south_africa_gravity_craft_engineer_case",
+      "source": "1951_archive",
+      "target": "south_africa_gravity_craft_engineer_case",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-manila_invisible_attacker_case",
+      "source": "1951_archive",
+      "target": "manila_invisible_attacker_case",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    },
+    {
+      "id": "edge-1951_archive-ukiah_nane_moon_civilization_case",
+      "source": "1951_archive",
+      "target": "ukiah_nane_moon_civilization_case",
+      "label": "archive entry",
+      "type": "part_of",
+      "notes": "Navigation edge for archive analysis."
+    }
+  ],
+  "bridgeEdges": [
+    {
+      "id": "bridge-humanoid-consciousness-recurring-motifs",
+      "sourceTreeId": "humanoid-encounter-archives",
+      "sourceNodeId": "humanoid_encounter_archives",
+      "targetTreeId": "consciousness-mythology-archetypes",
+      "targetNodeId": "recurring_motifs_across_decades_and_cultures",
+      "label": "recurring motifs",
+      "type": "cross_tree",
+      "notes": "Archives feed motif/archetype analysis."
+    }
+  ],
+  "metadata": {
+    "id": "humanoid-encounter-archives",
+    "title": "Humanoid Encounter Archives",
+    "themeColor": "rose",
+    "rootNodeId": "humanoid_encounter_archives",
+    "preferredPosition": {
+      "x": 0.78,
+      "y": 0.68
+    },
+    "layoutRadius": 260,
+    "branchSpacing": 1.12,
+    "description": "Evidence-aware archive analysis of humanoid encounter claims as folklore, anomalous-experience records, and mythology evolution material."
+  }
+}

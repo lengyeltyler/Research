@@ -1,0 +1,666 @@
+{
+  "id": "consciousness-mythology-archetypes",
+  "title": "Consciousness / Mythology / Archetype Evolution",
+  "description": "Research tree for recurring motifs across folklore, religion, UFO reports, altered states, symbolic imagery, and modern technological anxieties.",
+  "createdAt": "2026-05-11T12:00:00.000Z",
+  "updatedAt": "2026-05-11T18:00:00.000Z",
+  "qas": [
+    {
+      "id": "qa_consciousness_1",
+      "question": "Why do recurring motifs appear repeatedly across decades and cultures?",
+      "answer": "The research question is preserved without concluding that interdimensional beings are real. Recurring motifs can be studied through folklore, psychology, anthropology, religion, media history, and anomalous-experience reporting.",
+      "linkedNodeIds": [
+        "consciousness_mythology_archetype_evolution",
+        "telepathy_motif",
+        "altered_state_overlap",
+        "recurring_motifs_across_decades_and_cultures"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_consciousness_2",
+      "question": "Are humanoid encounter archives useful as evidence, folklore databases, anthropological material, or all three?",
+      "answer": "The research question is preserved without concluding that interdimensional beings are real. Recurring motifs can be studied through folklore, psychology, anthropology, religion, media history, and anomalous-experience reporting.",
+      "linkedNodeIds": [
+        "consciousness_mythology_archetype_evolution",
+        "telepathy_motif",
+        "altered_state_overlap",
+        "recurring_motifs_across_decades_and_cultures"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_consciousness_3",
+      "question": "What parts of Soviet UFO research are historically verified?",
+      "answer": "The research question is preserved without concluding that interdimensional beings are real. Recurring motifs can be studied through folklore, psychology, anthropology, religion, media history, and anomalous-experience reporting.",
+      "linkedNodeIds": [
+        "consciousness_mythology_archetype_evolution",
+        "telepathy_motif",
+        "altered_state_overlap",
+        "recurring_motifs_across_decades_and_cultures"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_consciousness_4",
+      "question": "What parts remain speculative or mythologized?",
+      "answer": "The research question is preserved without concluding that interdimensional beings are real. Recurring motifs can be studied through folklore, psychology, anthropology, religion, media history, and anomalous-experience reporting.",
+      "linkedNodeIds": [
+        "consciousness_mythology_archetype_evolution",
+        "telepathy_motif",
+        "altered_state_overlap",
+        "recurring_motifs_across_decades_and_cultures"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_consciousness_5",
+      "question": "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?",
+      "answer": "The research question is preserved without concluding that interdimensional beings are real. Recurring motifs can be studied through folklore, psychology, anthropology, religion, media history, and anomalous-experience reporting.",
+      "linkedNodeIds": [
+        "consciousness_mythology_archetype_evolution",
+        "telepathy_motif",
+        "altered_state_overlap",
+        "recurring_motifs_across_decades_and_cultures"
+      ],
+      "dateAdded": "2026-05-11"
+    }
+  ],
+  "nodes": [
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "root",
+      "level": 0,
+      "layoutHint": "root",
+      "fixedPosition": true,
+      "id": "consciousness_mythology_archetype_evolution",
+      "title": "Consciousness / Mythology / Archetype Evolution",
+      "type": "root",
+      "status": "researching",
+      "x": 140,
+      "y": 180,
+      "notePath": "nodes/consciousness_mythology_archetype_evolution.md",
+      "tags": [
+        "analytical-inference",
+        "unresolved-question"
+      ],
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Research cluster for recurring motifs across folklore, religion, UFO reports, altered states, and technological anxiety.",
+      "detailedSummary": "Research cluster for recurring motifs across folklore, religion, UFO reports, altered states, and technological anxiety.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "consciousness_mythology_archetype_evolution_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "telepathy_motif",
+      "title": "Telepathy motif",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 180,
+      "notePath": "nodes/telepathy_motif.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Reports often use telepathy as a boundary-crossing communication motif.",
+      "detailedSummary": "Reports often use telepathy as a boundary-crossing communication motif.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "telepathy_motif_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "human_mimicry_motif",
+      "title": "Human mimicry motif",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 250,
+      "notePath": "nodes/human_mimicry_motif.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Uncanny human imitation appears in changelings, Men in Black, doppelgangers, android anxiety, and humanoid reports.",
+      "detailedSummary": "Uncanny human imitation appears in changelings, Men in Black, doppelgangers, android anxiety, and humanoid reports.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "human_mimicry_motif_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "biological_robot_motif",
+      "title": "Biological robot motif",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 320,
+      "notePath": "nodes/biological_robot_motif.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Biological robot imagery appears strongly in late Soviet/CIS material.",
+      "detailedSummary": "Biological robot imagery appears strongly in late Soviet/CIS material.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "biological_robot_motif_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "changeling_doppelganger_continuity",
+      "title": "Changeling/doppelganger continuity",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 390,
+      "notePath": "nodes/changeling_doppelganger_continuity.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Older folklore patterns of substitution, uncanny imitation, and ambiguous personhood.",
+      "detailedSummary": "Older folklore patterns of substitution, uncanny imitation, and ambiguous personhood.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "changeling_doppelganger_continuity_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "folklore_continuity",
+      "title": "Folklore continuity",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 460,
+      "notePath": "nodes/folklore_continuity.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Continuity between older supernatural folklore and modern technological framing.",
+      "detailedSummary": "Continuity between older supernatural folklore and modern technological framing.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "folklore_continuity_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "altered_state_overlap",
+      "title": "Altered-state overlap",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 530,
+      "notePath": "nodes/altered_state_overlap.md",
+      "tags": [
+        "unresolved-question",
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Dreams, sleep paralysis, dissociation, grief, psychosis, and visionary states may overlap with some reports.",
+      "detailedSummary": "Dreams, sleep paralysis, dissociation, grief, psychosis, and visionary states may overlap with some reports.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "altered_state_overlap_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "consciousness_interaction_patterns",
+      "title": "Consciousness interaction patterns",
+      "type": "question",
+      "status": "researching",
+      "x": 400,
+      "y": 600,
+      "notePath": "nodes/consciousness_interaction_patterns.md",
+      "tags": [
+        "unresolved-question"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "User question",
+      "dateRange": "",
+      "shortSummary": "Why do telepathy, symbolism, and altered consciousness recur so often?",
+      "detailedSummary": "Why do telepathy, symbolism, and altered consciousness recur so often?",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "consciousness_interaction_patterns_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "symbolic_archetypal_behavior",
+      "title": "Symbolic/archetypal behavior",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 670,
+      "notePath": "nodes/symbolic_archetypal_behavior.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Reports often act like symbolic dramas rather than straightforward technological encounters.",
+      "detailedSummary": "Reports often act like symbolic dramas rather than straightforward technological encounters.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "symbolic_archetypal_behavior_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "recurring_motifs_across_decades_and_cultures",
+      "title": "Recurring motifs across decades and cultures",
+      "type": "timeline",
+      "status": "researching",
+      "x": 400,
+      "y": 740,
+      "notePath": "nodes/recurring_motifs_across_decades_and_cultures.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Comparative pattern node linking folklore, religion, UFO reports, and modern anxieties.",
+      "detailedSummary": "Comparative pattern node linking folklore, religion, UFO reports, and modern anxieties.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "recurring_motifs_across_decades_and_cultures_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "consciousness-mythology-archetypes",
+      "clusterId": "consciousness-mythology-archetypes",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "edinburgh_pizza_parlor_case",
+      "title": "Edinburgh pizza-parlor case",
+      "type": "claim",
+      "status": "researching",
+      "x": 400,
+      "y": 810,
+      "notePath": "nodes/edinburgh_pizza_parlor_case.md",
+      "tags": [
+        "ufology-compilation",
+        "witness-claim",
+        "analytical-inference"
+      ],
+      "parentId": "consciousness_mythology_archetype_evolution",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "A focused case study in uncanny-human-imitation and social-pattern violation rather than proof of aliens.",
+      "detailedSummary": "A focused case study in uncanny-human-imitation and social-pattern violation rather than proof of aliens.",
+      "relatedQuestions": [
+        "Why do consciousness, telepathy, altered states, and symbolic/archetypal imagery appear so often in these reports?"
+      ],
+      "relatedAnswers": [
+        "This tree preserves the motif question without concluding that interdimensional beings are real."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "edinburgh_pizza_parlor_case_claim_motif",
+          "text": "Motif recurrence can be studied without treating the reports as literal external encounters.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-telepathy_motif",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "telepathy_motif",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-human_mimicry_motif",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "human_mimicry_motif",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-biological_robot_motif",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "biological_robot_motif",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-changeling_doppelganger_continuity",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "changeling_doppelganger_continuity",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-folklore_continuity",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "folklore_continuity",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-altered_state_overlap",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "altered_state_overlap",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-consciousness_interaction_patterns",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "consciousness_interaction_patterns",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-symbolic_archetypal_behavior",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "symbolic_archetypal_behavior",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-recurring_motifs_across_decades_and_cultures",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "recurring_motifs_across_decades_and_cultures",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-consciousness_mythology_archetype_evolution-edinburgh_pizza_parlor_case",
+      "source": "consciousness_mythology_archetype_evolution",
+      "target": "edinburgh_pizza_parlor_case",
+      "label": "motif branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-human_mimicry_motif-changeling_doppelganger_continuity",
+      "source": "human_mimicry_motif",
+      "target": "changeling_doppelganger_continuity",
+      "label": "folklore continuity",
+      "type": "influenced_by",
+      "notes": ""
+    },
+    {
+      "id": "edge-biological_robot_motif-human_mimicry_motif",
+      "source": "biological_robot_motif",
+      "target": "human_mimicry_motif",
+      "label": "uncanny imitation",
+      "type": "connected_to",
+      "notes": ""
+    },
+    {
+      "id": "edge-altered_state_overlap-consciousness_interaction_patterns",
+      "source": "altered_state_overlap",
+      "target": "consciousness_interaction_patterns",
+      "label": "unresolved mechanism",
+      "type": "connected_to",
+      "notes": ""
+    }
+  ],
+  "bridgeEdges": [
+    {
+      "id": "bridge-consciousness-humanoid-edinburgh",
+      "sourceTreeId": "consciousness-mythology-archetypes",
+      "sourceNodeId": "edinburgh_pizza_parlor_case",
+      "targetTreeId": "humanoid-encounter-archives",
+      "targetNodeId": "edinburgh_pizza_parlor_case",
+      "label": "uncanny-human-imitation case",
+      "type": "cross_tree",
+      "notes": "Same case represented as archive entry and motif analysis."
+    },
+    {
+      "id": "bridge-consciousness-uou-mythology-development",
+      "sourceTreeId": "consciousness-mythology-archetypes",
+      "sourceNodeId": "folklore_continuity",
+      "targetTreeId": "uou-turkmenistan-ngo-networks",
+      "targetNodeId": "union_of_ufologists_of_turkmenabat_uou",
+      "label": "ufology mythology development",
+      "type": "cross_tree",
+      "notes": "Connects organization history to mythology-analysis frame."
+    }
+  ],
+  "metadata": {
+    "id": "consciousness-mythology-archetypes",
+    "title": "Consciousness / Mythology / Archetype Evolution",
+    "themeColor": "teal",
+    "rootNodeId": "consciousness_mythology_archetype_evolution",
+    "preferredPosition": {
+      "x": 0.38,
+      "y": 0.78
+    },
+    "layoutRadius": 260,
+    "branchSpacing": 1.12,
+    "description": "Research tree for recurring motifs across folklore, religion, UFO reports, altered states, symbolic imagery, and modern technological anxieties."
+  }
+}

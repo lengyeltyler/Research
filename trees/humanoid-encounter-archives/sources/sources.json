@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nicap",
+    "title": "NICAP",
+    "url": "https://www.nicap.org",
+    "authorPublisher": "NICAP",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "moderate",
+    "note": "Useful as research leads or ufology archives; not automatically verified evidence."
+  },
+  {
+    "id": "mufon",
+    "title": "MUFON",
+    "url": "https://mufon.com",
+    "authorPublisher": "MUFON",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "moderate",
+    "note": "Useful as research leads or ufology archives; not automatically verified evidence."
+  },
+  {
+    "id": "black_vault",
+    "title": "The Black Vault",
+    "url": "https://www.theblackvault.com",
+    "authorPublisher": "The Black Vault",
+    "accessDate": "2026-05-11",
+    "type": "archive",
+    "reliability": "moderate",
+    "note": "Useful as research leads or ufology archives; not automatically verified evidence."
+  }
+]

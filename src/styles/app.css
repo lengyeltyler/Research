@@ -288,7 +288,7 @@ button { border: 0; cursor: pointer; }
 .safe-atlas { isolation: isolate; }
 .tree-atlas {
   padding: 28px;
-  overflow: hidden;
+  overflow: auto;
   background:
     radial-gradient(circle at 22% 72%, rgba(34, 197, 94, 0.1), transparent 26%),
     radial-gradient(circle at 74% 30%, rgba(56, 189, 248, 0.13), transparent 29%),
@@ -305,10 +305,49 @@ button { border: 0; cursor: pointer; }
 }
 .atlas-heading h2 { margin: 3px 0 0; font-size: 30px; }
 .atlas-heading span { color: var(--muted); font-weight: 800; }
-.tree-atlas-map {
-  position: absolute;
-  inset: 74px 18px 18px;
+.atlas-connection-summary {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: -8px 0 24px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.atlas-connection-summary span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  max-width: min(100%, 420px);
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(125, 211, 252, 0.22);
+  background: rgba(15, 23, 42, 0.62);
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+}
+.atlas-connection-summary strong {
+  min-width: 22px;
+  height: 22px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(125, 211, 252, 0.16);
+  color: #dffaff;
+}
+.tree-atlas-map {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 54px 48px;
+  align-items: stretch;
+  width: 100%;
+  min-height: 0;
+  padding: 6px 2px 18px;
+  overflow: visible;
 }
 .tree-connection-layer {
   position: absolute;
@@ -341,37 +380,46 @@ button { border: 0; cursor: pointer; }
   font-weight: 900;
 }
 .sci-tree {
-  position: absolute;
+  position: relative;
   z-index: 3;
-  width: 210px;
-  min-height: 250px;
+  width: 100%;
+  min-width: 0;
+  min-height: 330px;
   display: grid;
   justify-items: center;
   align-content: start;
-  gap: 7px;
-  padding: 10px 14px 20px;
-  transform: translate(-50%, -50%);
+  gap: 8px;
+  padding: 18px 18px 22px;
   color: var(--text);
-  background: transparent;
+  background:
+    radial-gradient(circle at 50% 28%, color-mix(in srgb, currentColor 10%, transparent), transparent 42%),
+    rgba(15, 23, 42, 0.44);
+  border: 1px solid color-mix(in srgb, currentColor 26%, transparent);
+  border-radius: 18px;
+  overflow: hidden;
   text-align: center;
+  contain: layout paint;
 }
 .sci-tree:hover {
-  transform: translate(-50%, -50%) scale(1.03);
+  transform: translateY(-2px);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28), 0 0 42px color-mix(in srgb, currentColor 18%, transparent);
 }
 .sci-tree-orbit {
   position: absolute;
-  top: 4px;
+  top: 18px;
+  left: 50%;
   width: 168px;
   height: 168px;
   border: 1px dashed currentColor;
   border-radius: 999px;
   opacity: 0.22;
+  transform: translateX(-50%);
 }
 .sci-tree-orbit.orbit-two {
   width: 132px;
   height: 132px;
-  top: 22px;
-  transform: rotate(28deg);
+  top: 36px;
+  transform: translateX(-50%) rotate(28deg);
 }
 .sci-tree-canopy {
   position: relative;
@@ -410,15 +458,23 @@ button { border: 0; cursor: pointer; }
 .particle-b { right: 29px; top: 56px; }
 .particle-c { left: 69px; bottom: 28px; }
 .sci-tree-title {
-  max-width: 190px;
+  width: 100%;
+  max-width: 230px;
+  min-height: 44px;
   font-size: 20px;
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 1.1;
   text-shadow: 0 0 16px rgba(255, 255, 255, 0.16);
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .sci-tree-description {
-  max-width: 190px;
-  min-height: 48px;
+  width: 100%;
+  max-width: 235px;
+  min-height: 50px;
   color: var(--muted);
   font-size: 12px;
   line-height: 1.25;
@@ -432,6 +488,7 @@ button { border: 0; cursor: pointer; }
   gap: 7px;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 100%;
   color: var(--text);
   font-size: 12px;
   font-weight: 800;
@@ -441,6 +498,9 @@ button { border: 0; cursor: pointer; }
   border-radius: 999px;
   border: 1px solid currentColor;
   background: rgba(15, 23, 42, 0.68);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .sci-tree-trunk {
   width: 4px;

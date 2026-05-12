@@ -1,0 +1,1057 @@
+{
+  "id": "uou-turkmenistan-ngo-networks",
+  "title": "Turkmenistan / UOU / NGO Networks",
+  "description": "Evidence-aware investigation of the Union of Ufologists of Turkmenabat, post-Soviet Turkmenistan, NGO law, USAID/Counterpart context, and archival gaps.",
+  "createdAt": "2026-05-11T12:00:00.000Z",
+  "updatedAt": "2026-05-11T18:00:00.000Z",
+  "qas": [
+    {
+      "id": "qa_uou_1",
+      "question": "What exactly was the Union of Ufologists (UOU)?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "association_of_ufologists_in_chardzhou",
+        "ovezberdy_a_muradov"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_2",
+      "question": "Was the UOU originally the Association of Ufologists in Chardzhou?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "association_of_ufologists_in_chardzhou",
+        "ovezberdy_a_muradov"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_3",
+      "question": "Who was Ovezberdy Muradov?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "association_of_ufologists_in_chardzhou",
+        "ovezberdy_a_muradov"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_4",
+      "question": "Why was a ufology organization functioning as a successful NGO in authoritarian Turkmenistan?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "usaid_relationship",
+        "2003_law_on_public_associations",
+        "unresolved_funding_public_record_gaps"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_5",
+      "question": "Why was USAID/Counterpart involved with the UOU?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "usaid_relationship",
+        "2003_law_on_public_associations",
+        "unresolved_funding_public_record_gaps"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_6",
+      "question": "Was the UOU genuinely a UFO organization, or had it evolved into something else?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "usaid_relationship",
+        "2003_law_on_public_associations",
+        "unresolved_funding_public_record_gaps"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_7",
+      "question": "Why did the public trail around the UOU mostly disappear after 2004?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "usaid_relationship",
+        "2003_law_on_public_associations",
+        "unresolved_funding_public_record_gaps"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_uou_8",
+      "question": "Did the 2003 Law on Public Associations effectively suppress independent NGOs?",
+      "answer": "This thread is preserved as an evidence-aware research question. The working answer distinguishes documented organizational history from inference and unresolved archival gaps.",
+      "linkedNodeIds": [
+        "union_of_ufologists_of_turkmenabat_uou",
+        "usaid_relationship",
+        "2003_law_on_public_associations",
+        "unresolved_funding_public_record_gaps"
+      ],
+      "dateAdded": "2026-05-11"
+    }
+  ],
+  "nodes": [
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "root",
+      "level": 0,
+      "layoutHint": "root",
+      "fixedPosition": true,
+      "id": "union_of_ufologists_of_turkmenabat_uou",
+      "title": "Union of Ufologists of Turkmenabat (UOU)",
+      "type": "root",
+      "status": "researching",
+      "x": 140,
+      "y": 180,
+      "notePath": "nodes/union_of_ufologists_of_turkmenabat_uou.md",
+      "tags": [
+        "turkmenistan",
+        "uou",
+        "ngo",
+        "ufology",
+        "civil-society",
+        "primary-document",
+        "analytical-inference",
+        "unresolved-question"
+      ],
+      "category": "Religious movement",
+      "dateRange": "",
+      "shortSummary": "The Union of Ufologists of Turkmenabat was a Turkmenistan ufology-labeled organization that also appears in NGO/civil-society and grant records.",
+      "detailedSummary": "UOU is treated as an organization-history problem: a local ufology network in Turkmenabat/Chardzhou whose public trail intersects with USAID/Counterpart-backed civic work, restrictive NGO law, and authoritarian information control. This tree separates verified organizational facts, document-based grant traces, plausible continuity inferences, and unresolved archival gaps.",
+      "relatedQuestions": [
+        "What exactly was the Union of Ufologists (UOU)?",
+        "Was the UOU originally the Association of Ufologists in Chardzhou?",
+        "Who was Ovezberdy Muradov?",
+        "Why was a ufology organization functioning as a successful NGO in authoritarian Turkmenistan?",
+        "Why was USAID/Counterpart involved with the UOU?",
+        "Was the UOU genuinely a UFO organization, or had it evolved into something else?",
+        "Why did the public trail around the UOU mostly disappear after 2004?",
+        "Did the 2003 Law on Public Associations effectively suppress independent NGOs?"
+      ],
+      "relatedAnswers": [
+        "The UOU appears to have been both a ufology organization and a practical civic/NGO platform. The evidence does not prove extraterrestrial claims or corruption; it raises a historically interesting question about legally tolerated civic infrastructure in an authoritarian state."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "uou_claim_identity",
+          "text": "UOU means Union of Ufologists of Turkmenabat.",
+          "state": "strongly_supported",
+          "evidence": "Primary document",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        },
+        {
+          "id": "uou_claim_not_proof",
+          "text": "The UOU record does not confirm extraterrestrial claims.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        },
+        {
+          "id": "uou_claim_continuity_unresolved",
+          "text": "Continuity with the Association of Ufologists in Chardzhou is plausible but not legally proven.",
+          "state": "partially_supported",
+          "evidence": "Unresolved question",
+          "sourceIds": [],
+          "confidence": "moderate",
+          "disputeNotes": ""
+        }
+      ],
+      "evidenceLabels": [
+        "Primary document",
+        "Analytical inference",
+        "Unresolved question"
+      ]
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "turkmenistan_independence_and_soviet_collapse",
+      "title": "Turkmenistan independence and Soviet collapse",
+      "type": "event",
+      "status": "researching",
+      "x": 400,
+      "y": 180,
+      "notePath": "nodes/turkmenistan_independence_and_soviet_collapse.md",
+      "tags": [
+        "evidence-aware",
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "USSR collapse, Turkmen SSR continuity, October 1991 independence referendum, and transformation of Soviet political authority.",
+      "detailedSummary": "USSR collapse, Turkmen SSR continuity, October 1991 independence referendum, and transformation of Soviet political authority.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "saparmurat_niyazov_complete_political_history",
+      "title": "Saparmurat Niyazov complete political history",
+      "type": "person",
+      "status": "researching",
+      "x": 400,
+      "y": 250,
+      "notePath": "nodes/saparmurat_niyazov_complete_political_history.md",
+      "tags": [
+        "evidence-aware",
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Person",
+      "dateRange": "",
+      "shortSummary": "Niyazov's life, Soviet rise, post-Soviet consolidation, Turkmenbashi personality cult, censorship, and NGO suppression context.",
+      "detailedSummary": "Niyazov's life, Soviet rise, post-Soviet consolidation, Turkmenbashi personality cult, censorship, and NGO suppression context.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "soviet_post_soviet_power_transition",
+      "title": "Soviet -> post-Soviet power transition",
+      "type": "event",
+      "status": "researching",
+      "x": 400,
+      "y": 320,
+      "notePath": "nodes/soviet_post_soviet_power_transition.md",
+      "tags": [
+        "evidence-aware",
+        "analytical-inference",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Continuity between Communist Party command structures and presidential authoritarian rule after independence.",
+      "detailedSummary": "Continuity between Communist Party command structures and presidential authoritarian rule after independence.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "niyazov_personality_cult",
+      "title": "Niyazov personality cult",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 390,
+      "notePath": "nodes/niyazov_personality_cult.md",
+      "tags": [
+        "evidence-aware",
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Turkmenbashi title, cultic public symbolism, censorship, and state ideology.",
+      "detailedSummary": "Turkmenbashi title, cultic public symbolism, censorship, and state ideology.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "ruhnama_and_state_ideology",
+      "title": "Ruhnama and state ideology",
+      "type": "source",
+      "status": "researching",
+      "x": 400,
+      "y": 460,
+      "notePath": "nodes/ruhnama_and_state_ideology.md",
+      "tags": [
+        "evidence-aware",
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Scripture/Text",
+      "dateRange": "",
+      "shortSummary": "Niyazov's Ruhnama as a state ideological text and civic loyalty marker.",
+      "detailedSummary": "Niyazov's Ruhnama as a state ideological text and civic loyalty marker.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "2003_law_on_public_associations",
+      "title": "2003 Law on Public Associations",
+      "type": "event",
+      "status": "researching",
+      "x": 400,
+      "y": 530,
+      "notePath": "nodes/2003_law_on_public_associations.md",
+      "tags": [
+        "evidence-aware",
+        "primary-document",
+        "secondary-historical-source",
+        "analytical-inference"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Legal tradition",
+      "dateRange": "",
+      "shortSummary": "The 2003 law illustrates how normal nonprofit paperwork can become dangerous inside authoritarian enforcement systems.",
+      "detailedSummary": "Charters, founder names, meeting minutes, legal addresses, and governing documents are normal in democratic nonprofit registration. In authoritarian Turkmenistan, the danger came from Ministry of Justice discretion, prohibition on unregistered activity, exposure of members and networks, selective denial/pressure, and foreign-funding scrutiny. UOU re-registration was therefore significant because the state could use registration as a civic filter.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": [],
+      "evidenceLabels": [
+        "Primary document",
+        "Secondary historical source",
+        "Analytical inference"
+      ]
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "ngo_suppression_in_turkmenistan",
+      "title": "NGO suppression in Turkmenistan",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 600,
+      "notePath": "nodes/ngo_suppression_in_turkmenistan.md",
+      "tags": [
+        "evidence-aware",
+        "secondary-historical-source",
+        "analytical-inference"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "Selective registration, exposure of member networks, and chilling effects on independent civic groups.",
+      "detailedSummary": "Selective registration, exposure of member networks, and chilling effects on independent civic groups.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "uou_historical_timeline",
+      "title": "UOU historical timeline",
+      "type": "timeline",
+      "status": "researching",
+      "x": 400,
+      "y": 670,
+      "notePath": "nodes/uou_historical_timeline.md",
+      "tags": [
+        "evidence-aware",
+        "primary-document",
+        "secondary-historical-source",
+        "unresolved-question",
+        "ufology-compilation",
+        "analytical-inference"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Timeline linking Charjou/Chardzhou ufology, the 1991 publication trail, Muradov, the later UOU, and the post-2004 public-record gap.",
+      "detailedSummary": "Turkmenabat was formerly Chardzhou/Charjou. A 1991 Russian-language publication, UFOs: Fantastic Reality, connects Ovezberdy A. Muradov and V. V. Bondarenko to Charjou ufology. Later public records identify Muradov as UOU president in 2004. The Association of Ufologists in Chardzhou is likely part of the same local network, but exact legal continuity is unresolved.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": [],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Primary document",
+        "Analytical inference",
+        "Unresolved question"
+      ]
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "association_of_ufologists_in_chardzhou",
+      "title": "Association of Ufologists in Chardzhou",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 740,
+      "notePath": "nodes/association_of_ufologists_in_chardzhou.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "analytical-inference"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Earlier Charjou/Chardzhou ufology association possibly continuous with the later UOU, but not conclusively proven.",
+      "detailedSummary": "Earlier Charjou/Chardzhou ufology association possibly continuous with the later UOU, but not conclusively proven.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "ovezberdy_a_muradov",
+      "title": "Ovezberdy A. Muradov",
+      "type": "person",
+      "status": "researching",
+      "x": 400,
+      "y": 810,
+      "notePath": "nodes/ovezberdy_a_muradov.md",
+      "tags": [
+        "evidence-aware",
+        "primary-document",
+        "ufology-compilation",
+        "unresolved-question"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Person",
+      "dateRange": "",
+      "shortSummary": "Ovezberdy A. Muradov was associated with Charjou/Turkmenabat ufology and appears as UOU president in 2004.",
+      "detailedSummary": "Muradov is described in the UFOs: Fantastic Reality listing as a physicist and chairman of the Charjou City Association of Ufologists. Later records identify Ovezberdy A. Muradov as president of the UOU. The record supports organizational association, not ethnic inference or extraterrestrial conclusions.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": [],
+      "evidenceLabels": [
+        "Ufology compilation",
+        "Primary document",
+        "Unresolved question"
+      ]
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "ufos_fantastic_reality_1991",
+      "title": "UFOs: Fantastic Reality (1991)",
+      "type": "source",
+      "status": "researching",
+      "x": 400,
+      "y": 880,
+      "notePath": "nodes/ufos_fantastic_reality_1991.md",
+      "tags": [
+        "evidence-aware",
+        "ufology-compilation",
+        "primary-document"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Text/scripture",
+      "dateRange": "",
+      "shortSummary": "Russian-language ufology publication associated with Muradov and Charjou City Association of Ufologists.",
+      "detailedSummary": "Russian-language ufology publication associated with Muradov and Charjou City Association of Ufologists.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "usaid_relationship",
+      "title": "USAID relationship",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 950,
+      "notePath": "nodes/usaid_relationship.md",
+      "tags": [
+        "evidence-aware",
+        "primary-document",
+        "analytical-inference"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "USAID-linked support should be studied as civil-society strategy, not automatic proof of corruption or covert intent.",
+      "detailedSummary": "USAID-linked support should be studied as civil-society strategy, not automatic proof of corruption or covert intent.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "counterpart_international",
+      "title": "Counterpart International",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 1020,
+      "notePath": "nodes/counterpart_international.md",
+      "tags": [
+        "evidence-aware",
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Counterpart as an NGO-development organization with South Pacific origins and later USAID-linked post-Soviet programs.",
+      "detailedSummary": "Counterpart as an NGO-development organization with South Pacific origins and later USAID-linked post-Soviet programs.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "father_stanley_hosie",
+      "title": "Father Stanley Hosie",
+      "type": "person",
+      "status": "researching",
+      "x": 400,
+      "y": 1090,
+      "notePath": "nodes/father_stanley_hosie.md",
+      "tags": [
+        "evidence-aware",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Person",
+      "dateRange": "",
+      "shortSummary": "Co-founder figure in the Foundation for the Peoples of the South Pacific / Counterpart origin story.",
+      "detailedSummary": "Co-founder figure in the Foundation for the Peoples of the South Pacific / Counterpart origin story.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "betty_bryant_silverstein",
+      "title": "Betty Bryant Silverstein",
+      "type": "person",
+      "status": "researching",
+      "x": 400,
+      "y": 1160,
+      "notePath": "nodes/betty_bryant_silverstein.md",
+      "tags": [
+        "evidence-aware",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Person",
+      "dateRange": "",
+      "shortSummary": "Co-founder figure in Counterpart's South Pacific development history.",
+      "detailedSummary": "Co-founder figure in Counterpart's South Pacific development history.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "south_pacific_origins_of_counterpart",
+      "title": "South Pacific origins of Counterpart",
+      "type": "event",
+      "status": "researching",
+      "x": 400,
+      "y": 1230,
+      "notePath": "nodes/south_pacific_origins_of_counterpart.md",
+      "tags": [
+        "evidence-aware",
+        "secondary-historical-source"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Counterpart's origin as the Foundation for the Peoples of the South Pacific before later global development work.",
+      "detailedSummary": "Counterpart's origin as the Foundation for the Peoples of the South Pacific before later global development work.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "uou_humanitarian_and_ngo_work",
+      "title": "UOU humanitarian and NGO work",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 1300,
+      "notePath": "nodes/uou_humanitarian_and_ngo_work.md",
+      "tags": [
+        "evidence-aware",
+        "primary-document",
+        "analytical-inference",
+        "unresolved-question"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "The UOU reportedly performed practical civic work: NGO registration help, refugee support, enterprise registration help, and local training courses.",
+      "detailedSummary": "The UOU reportedly helped register 187 enterprises, assisted NGOs under restrictive law, helped with refugee and business-registration issues, and taught computer, accounting, massage, and ufology courses. The exact enterprises are unidentified. The massage courses are best read as ordinary vocational or therapeutic instruction; no evidence suggests sexual or illicit meaning. The location and students are not specified, but local residents, members, or civic participants using UOU infrastructure are the most likely audience.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": [],
+      "evidenceLabels": [
+        "Primary document",
+        "Analytical inference",
+        "Unresolved question"
+      ]
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "uou_grant_trail",
+      "title": "UOU grant trail",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 1370,
+      "notePath": "nodes/uou_grant_trail.md",
+      "tags": [
+        "evidence-aware",
+        "primary-document",
+        "unresolved-question"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "The UOU grant trail includes one confirmed active $8,532 grant and two larger discussed/proposed grants that are not proven awarded.",
+      "detailedSummary": "The confirmed active grant was $8,532. A $15,000 capacity-building grant and a $30,000 newsletter-equipment grant were discussed or proposed, but this ledger has no proof they were awarded. The newsletter may never have launched; no copies are currently known here.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": [],
+      "evidenceLabels": [
+        "Primary document",
+        "Unresolved question"
+      ]
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "unresolved_funding_public_record_gaps",
+      "title": "Unresolved funding/public-record gaps",
+      "type": "question",
+      "status": "researching",
+      "x": 400,
+      "y": 1440,
+      "notePath": "nodes/unresolved_funding_public_record_gaps.md",
+      "tags": [
+        "evidence-aware",
+        "unresolved-question"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "User question",
+      "dateRange": "",
+      "shortSummary": "Missing local records and unclear full extent of support after the available cable trail.",
+      "detailedSummary": "Missing local records and unclear full extent of support after the available cable trail.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    },
+    {
+      "treeId": "uou-turkmenistan-ngo-networks",
+      "clusterId": "uou-turkmenistan-ngo-networks",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "disappearance_of_uou_public_footprint_after_2004",
+      "title": "Disappearance of UOU public footprint after 2004",
+      "type": "question",
+      "status": "researching",
+      "x": 400,
+      "y": 1510,
+      "notePath": "nodes/disappearance_of_uou_public_footprint_after_2004.md",
+      "tags": [
+        "evidence-aware",
+        "unresolved-question",
+        "analytical-inference"
+      ],
+      "parentId": "union_of_ufologists_of_turkmenabat_uou",
+      "category": "User question",
+      "dateRange": "",
+      "shortSummary": "The public trail mostly disappears after 2004; suppression, rebranding, inactivity, or archival gaps remain possible.",
+      "detailedSummary": "The public trail mostly disappears after 2004; suppression, rebranding, inactivity, or archival gaps remain possible.",
+      "relatedQuestions": [],
+      "relatedAnswers": [],
+      "connections": [],
+      "claims": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-turkmenistan_independence_and_soviet_collapse",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "turkmenistan_independence_and_soviet_collapse",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-saparmurat_niyazov_complete_political_history",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "saparmurat_niyazov_complete_political_history",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-soviet_post_soviet_power_transition",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "soviet_post_soviet_power_transition",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-niyazov_personality_cult",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "niyazov_personality_cult",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-ruhnama_and_state_ideology",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "ruhnama_and_state_ideology",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-2003_law_on_public_associations",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "2003_law_on_public_associations",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-ngo_suppression_in_turkmenistan",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "ngo_suppression_in_turkmenistan",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-uou_historical_timeline",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "uou_historical_timeline",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-association_of_ufologists_in_chardzhou",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "association_of_ufologists_in_chardzhou",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-ovezberdy_a_muradov",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "ovezberdy_a_muradov",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-ufos_fantastic_reality_1991",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "ufos_fantastic_reality_1991",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-usaid_relationship",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "usaid_relationship",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-counterpart_international",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "counterpart_international",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-father_stanley_hosie",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "father_stanley_hosie",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-betty_bryant_silverstein",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "betty_bryant_silverstein",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-south_pacific_origins_of_counterpart",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "south_pacific_origins_of_counterpart",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-uou_humanitarian_and_ngo_work",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "uou_humanitarian_and_ngo_work",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-uou_grant_trail",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "uou_grant_trail",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-unresolved_funding_public_record_gaps",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "unresolved_funding_public_record_gaps",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-union_of_ufologists_of_turkmenabat_uou-disappearance_of_uou_public_footprint_after_2004",
+      "source": "union_of_ufologists_of_turkmenabat_uou",
+      "target": "disappearance_of_uou_public_footprint_after_2004",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-turkmenistan_independence_and_soviet_collapse-soviet_post_soviet_power_transition",
+      "source": "turkmenistan_independence_and_soviet_collapse",
+      "target": "soviet_post_soviet_power_transition",
+      "label": "political continuity",
+      "type": "caused",
+      "notes": ""
+    },
+    {
+      "id": "edge-saparmurat_niyazov_complete_political_history-niyazov_personality_cult",
+      "source": "saparmurat_niyazov_complete_political_history",
+      "target": "niyazov_personality_cult",
+      "label": "consolidation / cult",
+      "type": "caused",
+      "notes": ""
+    },
+    {
+      "id": "edge-saparmurat_niyazov_complete_political_history-2003_law_on_public_associations",
+      "source": "saparmurat_niyazov_complete_political_history",
+      "target": "2003_law_on_public_associations",
+      "label": "authoritarian context",
+      "type": "connected_to",
+      "notes": ""
+    },
+    {
+      "id": "edge-2003_law_on_public_associations-ngo_suppression_in_turkmenistan",
+      "source": "2003_law_on_public_associations",
+      "target": "ngo_suppression_in_turkmenistan",
+      "label": "registration pressure",
+      "type": "caused",
+      "notes": ""
+    },
+    {
+      "id": "edge-association_of_ufologists_in_chardzhou-uou_historical_timeline",
+      "source": "association_of_ufologists_in_chardzhou",
+      "target": "uou_historical_timeline",
+      "label": "possible continuity",
+      "type": "connected_to",
+      "notes": "Continuity is plausible but unresolved."
+    },
+    {
+      "id": "edge-ovezberdy_a_muradov-ufos_fantastic_reality_1991",
+      "source": "ovezberdy_a_muradov",
+      "target": "ufos_fantastic_reality_1991",
+      "label": "publication association",
+      "type": "source_for",
+      "notes": ""
+    },
+    {
+      "id": "edge-usaid_relationship-counterpart_international",
+      "source": "usaid_relationship",
+      "target": "counterpart_international",
+      "label": "implementing partner context",
+      "type": "connected_to",
+      "notes": ""
+    },
+    {
+      "id": "edge-counterpart_international-south_pacific_origins_of_counterpart",
+      "source": "counterpart_international",
+      "target": "south_pacific_origins_of_counterpart",
+      "label": "organizational origin",
+      "type": "descended_from",
+      "notes": ""
+    },
+    {
+      "id": "edge-uou_grant_trail-unresolved_funding_public_record_gaps",
+      "source": "uou_grant_trail",
+      "target": "unresolved_funding_public_record_gaps",
+      "label": "missing records",
+      "type": "connected_to",
+      "notes": ""
+    }
+  ],
+  "bridgeEdges": [
+    {
+      "id": "bridge-uou-setka-post-soviet-ufology",
+      "sourceTreeId": "uou-turkmenistan-ngo-networks",
+      "sourceNodeId": "union_of_ufologists_of_turkmenabat_uou",
+      "targetTreeId": "soviet-ufology-setka",
+      "targetNodeId": "soviet_anomalous_phenomena_research",
+      "label": "post-Soviet ufology context",
+      "type": "cross_tree",
+      "notes": "UOU should be read against Soviet/post-Soviet ufology institutions and mythologies."
+    },
+    {
+      "id": "bridge-uou-humanoid-mary-turkmenistan",
+      "sourceTreeId": "uou-turkmenistan-ngo-networks",
+      "sourceNodeId": "union_of_ufologists_of_turkmenabat_uou",
+      "targetTreeId": "humanoid-encounter-archives",
+      "targetNodeId": "mary_turkmenistan_case",
+      "label": "Turkmenistan humanoid claim context",
+      "type": "cross_tree",
+      "notes": "Mary case belongs in claim/folklore analysis, not as verified external-event evidence."
+    }
+  ],
+  "metadata": {
+    "id": "uou-turkmenistan-ngo-networks",
+    "title": "Turkmenistan / UOU / NGO Networks",
+    "themeColor": "purple",
+    "rootNodeId": "union_of_ufologists_of_turkmenabat_uou",
+    "preferredPosition": {
+      "x": 0.18,
+      "y": 0.32
+    },
+    "layoutRadius": 260,
+    "branchSpacing": 1.12,
+    "description": "Evidence-aware investigation of the Union of Ufologists of Turkmenabat, post-Soviet Turkmenistan, NGO law, USAID/Counterpart context, and archival gaps."
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "id": "soviet-ufology-setka",
+  "title": "Soviet Ufology / SETKA",
+  "description": "Historical research on Soviet anomalous-phenomena programs, SETKA, military concerns, secrecy, and post-Soviet ufology.",
+  "createdAt": "2026-05-11T12:00:00.000Z",
+  "updatedAt": "2026-05-11T18:00:00.000Z",
+  "qas": [
+    {
+      "id": "qa_setka_1",
+      "question": "What was the actual role of Soviet/post-Soviet ufology organizations?",
+      "answer": "SETKA-related programs and Soviet anomalous-phenomena study are historically important, but extraterrestrial conclusions, recovered craft, bodies, or superweapon claims remain unverified unless stronger primary documentation is found.",
+      "linkedNodeIds": [
+        "soviet_anomalous_phenomena_research",
+        "setka_an",
+        "setka_mo",
+        "cold_war_context"
+      ],
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "qa_setka_2",
+      "question": "How did UFO mythology evolve from folklore into modern technological-abduction narratives?",
+      "answer": "SETKA-related programs and Soviet anomalous-phenomena study are historically important, but extraterrestrial conclusions, recovered craft, bodies, or superweapon claims remain unverified unless stronger primary documentation is found.",
+      "linkedNodeIds": [
+        "soviet_anomalous_phenomena_research",
+        "setka_an",
+        "setka_mo",
+        "cold_war_context"
+      ],
+      "dateAdded": "2026-05-11"
+    }
+  ],
+  "nodes": [
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "root",
+      "level": 0,
+      "layoutHint": "root",
+      "fixedPosition": true,
+      "id": "soviet_anomalous_phenomena_research",
+      "title": "Soviet Anomalous Phenomena Research",
+      "type": "root",
+      "status": "researching",
+      "x": 140,
+      "y": 180,
+      "notePath": "nodes/soviet_anomalous_phenomena_research.md",
+      "tags": [
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Research cluster on Soviet anomalous aerial phenomena study, SETKA-related programs, military anxiety, and post-Soviet ufology.",
+      "detailedSummary": "Research cluster on Soviet anomalous aerial phenomena study, SETKA-related programs, military anxiety, and post-Soviet ufology.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "soviet_anomalous_phenomena_research_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "setka_an",
+      "title": "SETKA-AN",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 180,
+      "notePath": "nodes/setka_an.md",
+      "tags": [
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Academy/scientific anomalous-phenomena channel associated with Soviet study.",
+      "detailedSummary": "Academy/scientific anomalous-phenomena channel associated with Soviet study.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "setka_an_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "setka_mo",
+      "title": "SETKA-MO",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 250,
+      "notePath": "nodes/setka_mo.md",
+      "tags": [
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Empire/state",
+      "dateRange": "",
+      "shortSummary": "Military/ministry side of Soviet anomalous-phenomena study.",
+      "detailedSummary": "Military/ministry side of Soviet anomalous-phenomena study.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "setka_mo_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "petrozavodsk_incident",
+      "title": "Petrozavodsk incident",
+      "type": "event",
+      "status": "researching",
+      "x": 400,
+      "y": 320,
+      "notePath": "nodes/petrozavodsk_incident.md",
+      "tags": [
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "1977 incident often cited as a catalyst for Soviet anomalous-phenomena study.",
+      "detailedSummary": "1977 incident often cited as a catalyst for Soviet anomalous-phenomena study.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "petrozavodsk_incident_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "anomalous_atmospheric_phenomena_terminology",
+      "title": "Anomalous atmospheric phenomena terminology",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 390,
+      "notePath": "nodes/anomalous_atmospheric_phenomena_terminology.md",
+      "tags": [
+        "verified-historical-fact"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Terminology that allowed investigation without extraterrestrial conclusions.",
+      "detailedSummary": "Terminology that allowed investigation without extraterrestrial conclusions.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "anomalous_atmospheric_phenomena_terminology_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "soviet_military_concerns",
+      "title": "Soviet military concerns",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 460,
+      "notePath": "nodes/soviet_military_concerns.md",
+      "tags": [
+        "analytical-inference",
+        "secondary-historical-source"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Empire/state",
+      "dateRange": "",
+      "shortSummary": "Airspace, radar, missile, and Cold War security concerns.",
+      "detailedSummary": "Airspace, radar, missile, and Cold War security concerns.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "soviet_military_concerns_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "radar_anomalies",
+      "title": "Radar anomalies",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 530,
+      "notePath": "nodes/radar_anomalies.md",
+      "tags": [
+        "witness-claim",
+        "secondary-historical-source"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Concept",
+      "dateRange": "",
+      "shortSummary": "Reports or concerns involving instrument anomalies should be separated from interpretation.",
+      "detailedSummary": "Reports or concerns involving instrument anomalies should be separated from interpretation.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "radar_anomalies_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "missile_system_interference_claims",
+      "title": "Missile-system interference claims",
+      "type": "claim",
+      "status": "researching",
+      "x": 400,
+      "y": 600,
+      "notePath": "nodes/missile_system_interference_claims.md",
+      "tags": [
+        "witness-claim",
+        "weakly-sourced-claim"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Controversy",
+      "dateRange": "",
+      "shortSummary": "Claims require source-by-source review and should not be treated as established fact.",
+      "detailedSummary": "Claims require source-by-source review and should not be treated as established fact.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "missile_system_interference_claims_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "secrecy_structures",
+      "title": "Secrecy structures",
+      "type": "concept",
+      "status": "researching",
+      "x": 400,
+      "y": 670,
+      "notePath": "nodes/secrecy_structures.md",
+      "tags": [
+        "analytical-inference"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Empire/state",
+      "dateRange": "",
+      "shortSummary": "Soviet secrecy made later mythology easier to amplify.",
+      "detailedSummary": "Soviet secrecy made later mythology easier to amplify.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "secrecy_structures_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "post_soviet_ufology_explosion",
+      "title": "Post-Soviet ufology explosion",
+      "type": "event",
+      "status": "researching",
+      "x": 400,
+      "y": 740,
+      "notePath": "nodes/post_soviet_ufology_explosion.md",
+      "tags": [
+        "secondary-historical-source",
+        "analytical-inference"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "Opening archives, media markets, and social disruption fed public UFO/paranormal interest.",
+      "detailedSummary": "Opening archives, media markets, and social disruption fed public UFO/paranormal interest.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "post_soviet_ufology_explosion_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    },
+    {
+      "treeId": "soviet-ufology-setka",
+      "clusterId": "soviet-ufology-setka",
+      "importance": "major",
+      "level": 1,
+      "layoutHint": "branch",
+      "fixedPosition": true,
+      "id": "cold_war_context",
+      "title": "Cold War context",
+      "type": "topic",
+      "status": "researching",
+      "x": 400,
+      "y": 810,
+      "notePath": "nodes/cold_war_context.md",
+      "tags": [
+        "verified-historical-fact",
+        "secondary-historical-source"
+      ],
+      "parentId": "soviet_anomalous_phenomena_research",
+      "category": "Event",
+      "dateRange": "",
+      "shortSummary": "UFO study overlapped with air defense, weapons anxiety, intelligence, and misidentification risk.",
+      "detailedSummary": "UFO study overlapped with air defense, weapons anxiety, intelligence, and misidentification risk.",
+      "relatedQuestions": [
+        "What parts of Soviet UFO research are historically verified?",
+        "What parts remain speculative or mythologized?"
+      ],
+      "relatedAnswers": [
+        "Soviet anomalous-phenomena study is historically significant, but extraterrestrial conclusions remain unverified."
+      ],
+      "connections": [],
+      "claims": [
+        {
+          "id": "cold_war_context_claim_boundary",
+          "text": "Historical state/military interest does not equal proof of extraterrestrial craft or bodies.",
+          "state": "strongly_supported",
+          "evidence": "Analytical inference",
+          "sourceIds": [],
+          "confidence": "strong",
+          "disputeNotes": ""
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-setka_an",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "setka_an",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-setka_mo",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "setka_mo",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-petrozavodsk_incident",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "petrozavodsk_incident",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-anomalous_atmospheric_phenomena_terminology",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "anomalous_atmospheric_phenomena_terminology",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-soviet_military_concerns",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "soviet_military_concerns",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-radar_anomalies",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "radar_anomalies",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-missile_system_interference_claims",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "missile_system_interference_claims",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-secrecy_structures",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "secrecy_structures",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-post_soviet_ufology_explosion",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "post_soviet_ufology_explosion",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_anomalous_phenomena_research-cold_war_context",
+      "source": "soviet_anomalous_phenomena_research",
+      "target": "cold_war_context",
+      "label": "research branch",
+      "type": "part_of",
+      "notes": ""
+    },
+    {
+      "id": "edge-petrozavodsk_incident-setka_an",
+      "source": "petrozavodsk_incident",
+      "target": "setka_an",
+      "label": "institutional catalyst",
+      "type": "caused",
+      "notes": ""
+    },
+    {
+      "id": "edge-petrozavodsk_incident-setka_mo",
+      "source": "petrozavodsk_incident",
+      "target": "setka_mo",
+      "label": "institutional catalyst",
+      "type": "caused",
+      "notes": ""
+    },
+    {
+      "id": "edge-soviet_military_concerns-cold_war_context",
+      "source": "soviet_military_concerns",
+      "target": "cold_war_context",
+      "label": "airspace anxiety",
+      "type": "connected_to",
+      "notes": ""
+    }
+  ],
+  "bridgeEdges": [
+    {
+      "id": "bridge-setka-humanoid-post-soviet-explosion",
+      "sourceTreeId": "soviet-ufology-setka",
+      "sourceNodeId": "post_soviet_ufology_explosion",
+      "targetTreeId": "humanoid-encounter-archives",
+      "targetNodeId": "soviet_cis_paranormal_explosion",
+      "label": "post-Soviet paranormal explosion",
+      "type": "cross_tree",
+      "notes": "Connects Soviet institutional history to the 1990 humanoid/paranormal report environment."
+    },
+    {
+      "id": "bridge-setka-consciousness-altered-states",
+      "sourceTreeId": "soviet-ufology-setka",
+      "sourceNodeId": "post_soviet_ufology_explosion",
+      "targetTreeId": "consciousness-mythology-archetypes",
+      "targetNodeId": "altered_state_overlap",
+      "label": "paranormal narrative environment",
+      "type": "cross_tree",
+      "notes": "Bridge to altered-state and archetype analysis."
+    }
+  ],
+  "metadata": {
+    "id": "soviet-ufology-setka",
+    "title": "Soviet Ufology / SETKA",
+    "themeColor": "blue",
+    "rootNodeId": "soviet_anomalous_phenomena_research",
+    "preferredPosition": {
+      "x": 0.58,
+      "y": 0.28
+    },
+    "layoutRadius": 260,
+    "branchSpacing": 1.12,
+    "description": "Historical research on Soviet anomalous-phenomena programs, SETKA, military concerns, secrecy, and post-Soviet ufology."
+  }
+}

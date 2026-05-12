@@ -1,9 +1,9 @@
 {
   "id": "turkmenistan",
   "title": "Turkmenistan",
-  "description": "Research tree for Turkmenistan and related historical, cultural, political, and geographic branches.",
+  "description": "Research tree for Turkmenistan, now bridged to the deeper UOU / NGO / authoritarian-state investigation.",
   "createdAt": "2026-05-08T00:00:00.000Z",
-  "updatedAt": "2026-05-08T22:23:02.844Z",
+  "updatedAt": "2026-05-11T18:00:00.000Z",
   "nodes": [
     {
       "id": "turkmenistan",
@@ -15,7 +15,11 @@
       "notePath": "nodes/turkmenistan.md",
       "tags": [
         "country",
-        "central-asia"
+        "central-asia",
+        "uou",
+        "ngo-law",
+        "authoritarianism",
+        "analytical-inference"
       ],
       "treeId": "turkmenistan",
       "clusterId": "turkmenistan",
@@ -26,10 +30,15 @@
       "connections": [],
       "category": "Concept",
       "dateRange": "",
-      "shortSummary": "Turkmenistan is part of the Turkmenistan research tree.",
-      "detailedSummary": "Turkmenistan is part of the Turkmenistan research tree.",
-      "relatedQuestions": [],
-      "relatedAnswers": []
+      "shortSummary": "Turkmenistan country/root node, bridged to a dedicated UOU, NGO-law, Niyazov, and post-Soviet civil-society investigation.",
+      "detailedSummary": "This starter tree remains a country-level entry point. The deeper evidence-aware investigation is kept in the Turkmenistan / UOU / NGO Networks tree to preserve visual clarity and avoid burying the original country tree under a specialized archive project.",
+      "relatedQuestions": [
+        "How did authoritarian Turkmenistan shape the UOU/NGO public trail?",
+        "How did Soviet collapse and Niyazov's rule affect civic organizations?"
+      ],
+      "relatedAnswers": [
+        "The dedicated UOU tree handles the detailed investigation while this root stays a clean country-level gateway."
+      ]
     },
     {
       "id": "turkmens",
@@ -94,6 +103,18 @@
     },
     "layoutRadius": 190,
     "branchSpacing": 1,
-    "description": "Research tree for Turkmenistan and related historical, cultural, political, and geographic branches."
-  }
+    "description": "Research tree for Turkmenistan, now bridged to the deeper UOU / NGO / authoritarian-state investigation."
+  },
+  "bridgeEdges": [
+    {
+      "id": "bridge-turkmenistan-uou-investigation",
+      "sourceTreeId": "turkmenistan",
+      "sourceNodeId": "turkmenistan",
+      "targetTreeId": "uou-turkmenistan-ngo-networks",
+      "targetNodeId": "union_of_ufologists_of_turkmenabat_uou",
+      "label": "deep UOU / NGO investigation",
+      "type": "cross_tree",
+      "notes": "The original Turkmenistan starter remains lightweight and links to the dedicated UOU/NGO cluster."
+    }
+  ]
 }

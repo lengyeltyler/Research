@@ -3,16 +3,13 @@ import type { TreeSummary } from "../lib/researchSelectors";
 
 interface Props {
   tree: TreeSummary;
-  x: number;
-  y: number;
   onOpen: (treeId: string, rootNodeId: string) => void;
 }
 
-export function SciFiTreeBubble({ tree, x, y, onOpen }: Props) {
+export function SciFiTreeBubble({ tree, onOpen }: Props) {
   return (
     <button
       className={`sci-tree tree-color-${tree.themeColor}`}
-      style={{ left: `${x}%`, top: `${y}%` }}
       onClick={() => onOpen(tree.id, tree.rootNodeId)}
       aria-label={`Open ${tree.title}`}
     >
